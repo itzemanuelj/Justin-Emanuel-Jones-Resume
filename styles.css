@@ -1,0 +1,108 @@
+
+.large-name {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 450;
+  
+}
+
+.tiny-hr {
+    line-height: 10px; 
+    text-align: center;
+    width: 15%;
+    margin-top: -5px;
+}
+
+
+.small-role {
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: auto;
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
+
+header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    /* border: red 1px solid; */
+}
+    
+header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+}
+
+.hr-ps-bottom {
+    margin: 20px;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+
+/* CSS for the container */
+.container {
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns with equal width */
+  }
+
+  /* CSS for individual columns */
+  .column {
+    margin: 1px;
+    margin-left: 20px;
+    font-size: 10px;
+  }
+
+.hr-ps {
+    font-family: "Raleway", sans-serif;
+    width: 10%;
+    margin-left: 20px;
+}
+
+.paragraph {
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.hr-we{
+    font-family: "Raleway", sans-serif;
+    width: 10%;
+    margin-left: 20px;
+}
+
+.bold {
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+    font-size: 12px;
+    margin: 20px;
+}
+
+
+bolder {
+    font-weight: 1000 ;
+}
