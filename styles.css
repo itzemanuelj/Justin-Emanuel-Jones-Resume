@@ -40,9 +40,9 @@ header li {
     display: inline-block;
 }
 
-li a{
-    color: white;
-}
+/* li a{
+   
+} */
 
 .hr-ps-bottom {
     margin: 20px;
