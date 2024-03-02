@@ -1,4 +1,8 @@
+body{
+    background-color: #333333;
+    color: antiquewhite;
 
+}
 .large-name {
     font-family: "Raleway", sans-serif;
     font-size: 30px;
