@@ -1,6 +1,6 @@
 body{
     background-color: #333333;
-    color: antiquewhite;
+    color: white;
 
 }
 .large-name {
@@ -19,6 +19,11 @@ body{
     margin-top: -5px;
 }
 
+.header-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    
+}
 
 .small-role {
     font-family: "Raleway", sans-serif;
@@ -44,9 +49,11 @@ header li {
     display: inline-block;
 }
 
-/* li a{
-   
-} */
+li a{
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: underline;
+}
 
 .hr-ps-bottom {
     margin: 20px;
@@ -108,5 +115,22 @@ h3 {
 
 
 bolder {
+    font-size: 15px ;
+    color: antiquewhite;
     font-weight: 1000 ;
+}
+
+.footer-style {
+    font-family: "Raleway", sans-serif;    
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: underline;
+    margin: -5px;
+}
+    
+
+.footer-image {
+    padding: 10px;
+    margin: -15px;
+    /* border: 1px red solid; */
 }
