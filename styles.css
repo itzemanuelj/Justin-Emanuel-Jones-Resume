@@ -80,7 +80,7 @@ h3 {
   .column {
     margin: 1px;
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
 .hr-ps {
@@ -115,19 +115,23 @@ h3 {
 
 
 bolder {
-    font-size: 15px ;
+    font-size: 12px ;
     color: antiquewhite;
     font-weight: 1000 ;
 }
 
 .footer-style {
-    font-family: "Raleway", sans-serif;    
+    font-family: "Raleway", sans-serif;
     color: white;
     padding: 1em 1.5em;
     text-decoration: underline;
     margin: -5px;
+    /* border : 1px solid red; */
 }
     
+a {
+    font-family: "Raleway", sans-serif;
+}
 
 .footer-image {
     padding: 10px;
