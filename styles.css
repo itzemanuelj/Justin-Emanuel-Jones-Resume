@@ -55,6 +55,8 @@ li a{
     color: white;
     padding: 1em 1.5em;
     text-decoration: underline;
+    /* border: 1px red solid; */
+
 }
 
 .hr-ps-bottom {
@@ -143,11 +145,36 @@ bolder {
     /* border : 1px solid red;  */
 }
     
-a {
-    font-family: "Raleway", sans-serif;
-}
+
 
 .footer-image {
-    margin-left: -17.2px ;
+    padding: 10px;
+    margin-left: -15px;;
     /* border: 1px red solid;  */
 }
+
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .large-name {
+        font-family: "Raleway", sans-serif;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 45;
+    }
+   
+    .small-role {
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: auto;
+        font-weight: 700; 
+        margin-bottom: 20px;
+    }
+
+.header-text {
+    font-size: 5px;
+}
+
+    }
