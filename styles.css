@@ -1,13 +1,15 @@
 body{
     background-color: #333333;
     color: white;
+    padding: 35px;
+    /* border: red solid 1px; */
 
 }
 .large-name {
     font-family: "Raleway", sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     font-weight: 450;
   
 }
@@ -21,13 +23,13 @@ body{
 
 .header-text {
     font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 
 .small-role {
     font-family: "Raleway", sans-serif;
-    font-size: 10px;
+    font-size: 18px;
     text-align: center;
     letter-spacing: auto;
     font-weight: 700; 
@@ -94,8 +96,9 @@ h3 {
     BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
     sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     margin: 20px;
+    /* border: 1px red solid ; */
 }
 
 .hr-we{
@@ -120,13 +123,24 @@ bolder {
     font-weight: 1000 ;
 }
 
+
+.space{
+  /* border: 1px red solid ; */
+  margin-left: 20%;
+}
+
 .footer-style {
-    font-family: "Raleway", sans-serif;
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    font-size: 20px;
+    margin: 20px;
     color: white;
-    padding: 1em 1.5em;
     text-decoration: underline;
-    margin: -5px;
-    /* border : 1px solid red; */
+
+    /* border : 1px solid red;  */
 }
     
 a {
@@ -134,7 +148,6 @@ a {
 }
 
 .footer-image {
-    padding: 10px;
-    margin: -15px;
-    /* border: 1px red solid; */
+    margin-left: -17.2px ;
+    /* border: 1px red solid;  */
 }
