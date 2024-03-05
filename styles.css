@@ -141,7 +141,6 @@ bolder {
     margin: 20px;
     color: white;
     text-decoration: underline;
-
     /* border : 1px solid red;  */
 }
     
@@ -166,7 +165,7 @@ bolder {
    
     .small-role {
         font-family: "Raleway", sans-serif;
-        font-size: 12px;
+        font-size: 8px;
         text-align: center;
         letter-spacing: auto;
         font-weight: 700; 
@@ -177,4 +176,22 @@ bolder {
     font-size: 5px;
 }
 
+.paragraph {
+    font-size: 12px;
+    /* border: solid red 1px; */
+}
+
+.column {
+    font-size: 5px;
+}
+
+.footer-style {
+    font-size: 12px;
+    /* border: green 1px solid; */
+}
+
+.footer-image {
+    margin-left: 1px;;
+    /* border: 1px  blue;  */
+}
     }
