@@ -187,11 +187,11 @@ bolder {
 
 .footer-style {
     font-size: 12px;
-    /* border: green 1px solid; */
+    border: green 1px solid;
 }
 
 .footer-image {
     margin-left: 1px;;
-    /* border: 1px  blue;  */
+    border: 1px  blue; 
 }
     }
