@@ -179,9 +179,10 @@ bolder {
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
-    width: 90%;   
+    width: 90%; 
+    line-height: 1px ;  
     /* border: blue 1px solid; */
-    margin: -10px;
+    margin: -12px;
 }
 
 .paragraph {
@@ -207,6 +208,4 @@ img, .footer-image {
     height: 25px ;
     margin-left: 1px;;
 }
-
-
     }
