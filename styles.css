@@ -217,7 +217,7 @@ bolder {
 img, .footer-image {
     height: 150px;
     width: auto;
-    margin-left: -25px;
+    margin-left: -5px;
     /* border: red 1px solid; */
     margin-top: -20px;
 }
