@@ -156,6 +156,11 @@ bolder {
 @media only screen and (max-width: 425px){
 	/*Small smartphones [325px -> 425px]*/
 
+    body {
+        padding: 1px;
+        /* border: 1px blue solid; */
+    }
+
     .large-name {
         font-family: "Raleway", sans-serif;
         font-size: 25px;
@@ -179,7 +184,7 @@ bolder {
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
-    width: 90%; 
+    width: 100%; 
     line-height: 1px ;  
     /* border: blue 1px solid; */
     margin: -12px;
