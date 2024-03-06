@@ -183,6 +183,8 @@ bolder {
 .header-text {
     display: flex;
     flex-wrap: wrap;
+    justify-self: space-between;
+    width: 100%;
     font-size: 12px;
     line-height: 1px ;  
     /* border: blue 1px solid; */
