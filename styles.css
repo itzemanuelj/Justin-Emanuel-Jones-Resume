@@ -200,7 +200,7 @@ bolder {
     flex-wrap: wrap;
     font-size: 12px;
     width: 100%;
-    /* border: green 1px solid; */
+    border: green 1px solid;
 
 }
 
