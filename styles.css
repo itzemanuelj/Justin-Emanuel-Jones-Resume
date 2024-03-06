@@ -183,11 +183,11 @@ bolder {
 .header-text {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     font-size: 12px;
     width: 100%; 
     line-height: 1px ;  
     /* border: blue 1px solid; */
-    margin: -12px;
 }
 
 .paragraph {
@@ -200,7 +200,7 @@ bolder {
     flex-wrap: wrap;
     font-size: 12px;
     width: 100%;
-    border: green 1px solid;
+    /* border: green 1px solid; */
 
 }
 
@@ -210,7 +210,10 @@ bolder {
 }
 
 img, .footer-image {
-    height: 40px ;
-    margin-left: 1px;;
+    height: 55px ;
+    width: auto;
+    margin: -10px;
+    border: red 1px solid;
+
 }
     }
