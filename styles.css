@@ -212,9 +212,10 @@ bolder {
 }
 
 img, .footer-image {
-    height: 100px;
+    height: 150px;
     width: auto;
-    margin: 7px;
+    margin-left: -5px;
     /* border: red 1px solid; */
+    margin-top: -40px;
 }
     }
