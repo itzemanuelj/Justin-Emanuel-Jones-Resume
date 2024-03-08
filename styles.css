@@ -223,7 +223,7 @@ img, .footer-image {
 }
     }
 
-    @media only screen and (max-width: 1133px){
+    @media only screen and (max-width: 1133px){ 
         /* tablet  [744px -> 1133px]*/
     
         .header-text ,li {
@@ -243,3 +243,24 @@ img, .footer-image {
             margin-top: -20px;
         }
     }
+
+    @media only screen and (max-width: 1792px){
+        /*Big smartphones [828 -> 1792px]*/
+        .header-text ,li {
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+            line-height: 1px ;  
+            border: blue 1px solid;
+            margin: auto;
+            margin-left:-15px; 
+        }
+        img, .footer-image {
+            height: 150px;
+            width: auto;
+            margin-left: 1px;
+            border: red 1px solid;
+            margin-top: -30px;  
+    
+    }
+}
