@@ -12,6 +12,10 @@ h3 {
   color: #eceef0;
 }
 
+.contact {
+  font-size: larger;
+}
+
 a:link {
   color: #eceef0;  
   background-color: transparent;
