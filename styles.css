@@ -9,7 +9,8 @@ padding: 10px;
 h1,
 h2,
 h3 {
-  color: #eceef0;
+  color: #fcfdfee6;
+  ;
 }
 
 .contact {
@@ -18,7 +19,7 @@ h3 {
 }
 
 a:link {
-  color: #eceef0;  
+  color: #fcfdfee6;  
   background-color: transparent;
   text-decoration: underline;
 }
