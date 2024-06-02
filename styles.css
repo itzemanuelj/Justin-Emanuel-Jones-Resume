@@ -19,7 +19,13 @@ h3 {
 }
 
 a:link {
-  color: #E70F32;  
+  color: #E70F32;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #75B08B;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -30,8 +36,8 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
-  color: #fcfdfee6;
+a:active {
+  color: #5284E7;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -63,7 +69,7 @@ footer {
 
 .txt3 {
   font-family: "raleway", serif;
-  font-size: 0.80em;
+  font-size: 1em;
 }
 
 .edu {
