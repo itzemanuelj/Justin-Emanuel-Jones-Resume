@@ -6,6 +6,10 @@ margin: auto;
 padding: 10px;
 }
 
+#small-text {
+  font-size: small;
+}
+
 h1,
 h2,
 h3 {
