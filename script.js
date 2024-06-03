@@ -18,3 +18,30 @@ var intervalId = setInterval(function() {
     i++;
   }
 }, 700)
+
+
+
+var fonts = [
+    'Arial', 'Helvetica', 'Times New Roman', 'Courier New', 'Verdana', 'Georgia', 
+            'Trebuchet MS', 'Lucida Console', 'Impact', 'Tahoma', 'Palatino', 
+            'Garamond', 'Comic Sans MS', 'Arial Black'
+];
+
+var i = 0;
+
+function getRandomFont() {
+    var randomIndex = Math.floor(Math.random() * fonts.length);
+    return fonts[randomIndex];
+}
+
+var intervalId = setInterval(function() {
+    var textElement = document.getElementById('itname');
+    textElement.innerHTML = itname[i];
+    textElement.style.fontFamily = getRandomFont();
+
+    if (i == (itname.length - 1)) {
+        i = 0;
+    } else {
+        i++;
+    }
+}, 700);
