@@ -81,7 +81,9 @@ footer {
 
 .edu {
   font-weight: 700;
-  font-size: 1em;
+  font-size: .65em;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
 }
 
 
