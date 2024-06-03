@@ -6,8 +6,15 @@ margin: auto;
 padding: 10px;
 }
 
-#small-text {
+#small-text{
   font-size: 0.6em;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.edu {
+  font-weight: 700;
+  font-size: 0.80em;
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
 }
@@ -85,12 +92,7 @@ margin-left: -0.7em;
   font-size: 1.25em;
 }
 
-.edu {
-  font-weight: 700;
-  font-size: .65em;
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-}
+
 
 img ,i {
   text-decoration: none ;
