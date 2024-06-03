@@ -1,1 +1,20 @@
-<script src="https://kit.fontawesome.com/c185e2d1c9.js" crossorigin="anonymous"></script>
+{/* <script src="https://kit.fontawesome.com/c185e2d1c9.js" crossorigin="anonymous"></script> */}
+
+
+var itname = ['TECH SUPPORT SPECIALIST', 'IT SUPPORT SPECIALIST',
+ 'HELP DESK TECHNICIAN','CUSTOMER SUPPORT TECHNICIAN'
+,'TECHNICAL SUPPORT ENGINEER', 'IT HELP DESK ANALYST',
+'TECHNICAL SUPPORT ANALYST', 'SERVICE DESK ANALYST', 
+'IT SUPPORT ENGINEER','SUPPORT DESK TECHNICIAN', 'CUSTOMER SUPPORT ENGINEER', 'TECHNICAL SUPPORT CONSULTANT'
+, 'USER SUPPORT SPECIALIST', 'DESKTOP SUPPORT TECHNICIAN', 'REMOTE SUPPORT TECHNICIAN', 'TECHNICAL SUPPORT ADVISOR', 
+'APPLICATION SUPPORT ANALYST'
+];
+var i = 0;
+var intervalId = setInterval(function() {
+  document.getElementById('itname').innerHTML = itname[i];
+  if (i == (itname.length - 1)) {
+    i = 0;
+  } else {
+    i++;
+  }
+}, 700)
