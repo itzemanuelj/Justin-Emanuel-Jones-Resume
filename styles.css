@@ -39,7 +39,7 @@ a:link {
 }E70F32
 
 a:visited {
-  color: #75B08B;
+  color: #FFFFFF;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -51,7 +51,7 @@ a:hover {
 }
 
 a:active {
-  color: #fcfdfee6;
+  color: #FFFFFF;
   background-color: transparent;
   text-decoration: underline;
 }
