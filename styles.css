@@ -74,7 +74,7 @@ margin-left: -0.7em;
 
 .txt1 {
   font-family: "raleway", serif;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .mini {
@@ -82,16 +82,11 @@ margin-left: -0.7em;
   font-weight: 450;
 }
 
-/* .txt2 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 2.10em;
-} */
-
 .txt3 {
   font-family: "raleway", serif;
   font-size: 1.25em;
 }
+
 
 img ,i {
   text-decoration: none ;
@@ -107,7 +102,9 @@ img ,i {
 }
 
 .email {
+  font-size: large;
   font-family: "Arimo", sans-serif;
+  font-weight: 200
 ;}
 
 
@@ -127,7 +124,7 @@ img ,i {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 50%;
+  width: 80%;
 }
 
 .rainbow:before {
@@ -198,7 +195,7 @@ img ,i {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 50%;
+  width: 80%;
 }
 
 .txt2:before {
