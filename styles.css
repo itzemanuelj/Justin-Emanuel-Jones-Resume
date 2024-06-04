@@ -121,10 +121,6 @@ img ,i {
   padding: 0.1em;
 }
 
-
-
-
-
 .txt2{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -135,7 +131,6 @@ img ,i {
   width: fit-content;
   padding: 0.1em;
 }
-
 
 @media (max-width: 1200px) {
   .container {
