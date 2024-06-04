@@ -113,8 +113,9 @@ margin-left: -0.7em;
 
 
 img {
-  border: #E62600 1px solid;
-  display: inline;
+display: flex;
+align-items: end;
+  
 }
 
 .red {
