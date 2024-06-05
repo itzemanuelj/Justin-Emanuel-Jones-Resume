@@ -215,3 +215,48 @@ word-spacing: 0%;}
     font-size: 0.9em;
   }
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: black;
+  color: #f2f2f2;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+      float: right;
+      display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+}
