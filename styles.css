@@ -219,6 +219,10 @@ word-spacing: 0%;}
 .navbar {
   overflow: hidden;
   background-color: #333;
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: medium !important;
+ 
 }
 
 .navbar a {
