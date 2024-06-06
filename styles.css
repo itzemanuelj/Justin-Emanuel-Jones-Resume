@@ -62,7 +62,7 @@ a:active {
 footer {
   background-color: #1f1d1d;
   padding: 20px;
-  
+  border: green 1px solid;
 }
 
 .section-title {
