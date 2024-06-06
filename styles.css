@@ -159,6 +159,12 @@ word-spacing: 0%;}
   padding: 0.1em;
 }
 
+hr { 
+  max-width: 100%; 
+  margin-left: 0;
+  opacity: 10%;
+}
+
 @media (max-width: 1200px) {
   .container {
     padding: 15px;
