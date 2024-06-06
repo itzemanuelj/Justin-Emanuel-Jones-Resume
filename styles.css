@@ -1,9 +1,10 @@
-body {
+html, body {
 font-family: "Raleway", sans-serif;
   background-color: #111;
   color: #fcfdfee6;
 margin: auto;
 padding: 10px;
+height: 100%;
 }
 
 #small-text{
