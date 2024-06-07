@@ -36,8 +36,7 @@ a:link {
   color: #fcfdfee6;
   background-color: transparent;
   text-decoration: underline;
-
-}E70F32
+}
 
 a:visited {
   color: #FFFFFF;
@@ -274,4 +273,12 @@ hr {
       display: block;
       text-align: left;
   }
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
