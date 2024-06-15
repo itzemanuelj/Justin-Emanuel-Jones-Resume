@@ -33,25 +33,26 @@ h3 {
 }
 
 a:link {
-  color: #fcfdfee6;
+  color: #6FE2FC;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #FFFFFF;
+  color: #6FE2FC;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #E70F32;
+  color: #6FE2FC;
   background-color: transparent;
   text-decoration: underline;
+  text-decoration-color: #FFF ;
 }
 
 a:active {
-  color: #FFFFFF;
+  color: #6FE2FC;
   background-color: transparent;
   text-decoration: underline;
 }
