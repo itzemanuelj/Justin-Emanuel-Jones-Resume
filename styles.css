@@ -346,8 +346,9 @@ hr {
 }
 
 .ll {
+  font-size: 20px;
   word-spacing: -2px;
-  padding: 10px;
+  padding: 12px;
   background-color:#0078B8;
   border-radius: 5px;
   width: fit-content;}
