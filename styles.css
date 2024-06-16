@@ -95,11 +95,11 @@ margin-left: -0.7em;
 
 /* Projects */
 #projects {
-  background: #6FE2FC;
+  background: #786e6e;
   border-radius: 5px;
   margin-right:5px;
   width: fit-content;
-  padding: 0.1em;
+  padding: 10px;
 }
 
 
@@ -305,4 +305,40 @@ hr {
 
 .nav-img {
   margin-bottom: -5px;
+}
+ /* Certs */
+.forage {
+  padding: 10px;
+  background-color: #16559B;
+  border-radius: 5px;
+  
+}
+
+.CompTIA {
+  padding: 10px;
+  background-color: #EF362C;
+  border-radius: 5px;
+}
+
+.google {
+  padding: 10px;
+  background: linear-gradient(45deg, 
+  #4285f4, 
+  #ea4335, 
+  #fbbc05, 
+  #34a853, 
+  #673ab7); 
+  border-radius: 5px;
+}
+
+.coursera {
+  padding: 10px;
+  background-color: #085BD3;
+  border-radius: 5px;
+}
+
+/* cert text */
+.cert-text {
+font-family: "Raleway", sans-serif;
+font-size: .75em;
 }
