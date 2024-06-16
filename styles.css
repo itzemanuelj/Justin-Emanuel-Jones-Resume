@@ -332,13 +332,14 @@ hr {
 }
 
 .google {
+  font-size: 20px;
   padding: 10px;
   background: #314a6b;
   border-radius: 5px;
   width: fit-content;
 }
 .google-icon{
-  margin-bottom: -3px;
+  margin-bottom: -4px;
 }
 .coursera {
   margin-bottom: -12px;
