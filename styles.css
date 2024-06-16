@@ -311,13 +311,14 @@ hr {
   padding: 10px;
   background-color: #16559B;
   border-radius: 5px;
-  
+  width: fit-content;
 }
 
 .CompTIA {
   padding: 10px;
   background-color: #EF362C;
   border-radius: 5px;
+  width: fit-content;
 }
 
 .google {
@@ -329,13 +330,13 @@ hr {
   #34a853, 
   #673ab7); 
   border-radius: 5px;
-}
+  width: fit-content;}
 
 .coursera {
   padding: 10px;
   background-color: #085BD3;
   border-radius: 5px;
-}
+  width: fit-content;}
 
 /* cert text */
 .cert-text {
