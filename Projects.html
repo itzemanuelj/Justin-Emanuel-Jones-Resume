@@ -22,32 +22,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/c185e2d1c9.js" crossorigin="anonymous"></script>
 </head>
 
+<body>
 <header>
     <div class="navbar" id="myNavbar">
-        <a href="index.html"><img class="nav-img" src="/images/nav/home.png" height="25" width="25">Home</a>
-        <a href="Certifications.html"><img class="nav-img" src="/images/nav/certs.png" height="25" width="25">Certifications</a>
-        <a href="Projects.html"><img class="nav-img" src="/images/nav/projects.png" height="25" width="25">Projects</a>
-        <a href="Work Experience.html"><img class="nav-img" src="/images/nav/we.png" height="25" width="25">Work Experience</a>
+        <a href="index.html" target="_blank"><img class="nav-img" src="/images/nav/home.png" height="25" width="25">Home</a>
+        <a href="Certifications.html" target="_blank"><img class="nav-img" src="/images/nav/certs.png" height="25" width="25">Certifications</a>
+        <a href="Projects.html" target="_blank"><img class="nav-img" src="/images/nav/projects.png" height="25" width="25">Projects</a>
+        <a href="Work Experience.html" target="_blank"><img class="nav-img" src="/images/nav/we.png" height="25" width="25">Work Experience</a>
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
-        <img src="/images/nav/Hamburg.png" alt="nav button" height="25" width="25">
-    </a>
+        <img id="nav-icon" src="/images/nav/Hamburg.png" alt="nav button" height="25" width="25">
+        </a>
     </div>
 </header>
 
-    <script>
-        function toggleNavbar() {
-            var x = document.getElementById("myNavbar");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
+<script>
+    function toggleNavbar() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
         }
-    </script>
+
+        // Toggle the icon image
+        var icon = document.getElementById('nav-icon');
+        if (icon.src.includes('Hamburg.png')) {
+            icon.src = '/images/nav/Hamburg2.png';
+        } else {
+            icon.src = '/images/nav/Hamburg.png';
+        }
+    }
+
+    var icon = document.getElementById('nav-icon');
+        if (icon.src.includes('Hamburg.png')) {
+            icon.src = '/images/nav/Hamburg.png';
+            icon.style.width = '25px'; // Set new width
+            icon.style.height = '25px'; // Set new height
+        } else {
+            icon.src = '/images/nav/Hamburg2.png';
+            icon.style.width = '25px'; // Set back to original width
+            icon.style.height = '25px'; // Set back to original height
+        }
+</script>
+
+<h1 class="txt1"><span class="red">Just <a href="https://www.linkedin.com/in/itzemanuelj/" target="_blank">
+    <i class="fa-brands fa-linkedin" style="color:#0073AE;"></i></a> <span class="white"> Jones</span>
+</h1></span>
+<style>
+    .mini {
+      font-size: 1.255em;
+    }
+  </style>
+</head>>
 
     <h2 class="txt2">DevOps Bootcamp: Learn Linux <br>& Become a Linux Sysadmin via ZTM </h2>
 <h3 id="projects" class="txt3">Ansible Automater </h3>
