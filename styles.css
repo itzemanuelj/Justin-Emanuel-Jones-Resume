@@ -67,8 +67,8 @@ footer {
   padding: 20px;
 }
 
-.section-title {
-  font-weight: bold;
+.cert-list {
+list-style: none;
 }
 
 li {
