@@ -312,6 +312,7 @@ hr {
 }
  /* Certs */
 .forage {
+  font-size: larger;
   color: #16559B;
   padding: 10px;
   background-color: #353232;
@@ -337,14 +338,14 @@ hr {
   width: fit-content;
 }
 .google-icon{
-  margin-bottom: -2px;
+  margin-bottom: -3px;
 }
 .coursera {
   margin-bottom: -12px;
 }
 
 .ll {
-  word-spacing: -5px;
+  word-spacing: -2px;
   padding: 10px;
   background-color:#0078B8;
   border-radius: 5px;
