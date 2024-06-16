@@ -312,8 +312,10 @@ hr {
 }
  /* Certs */
 .forage {
+  color: #16559B;
   padding: 10px;
-  background-color: #16559B;
+  background-color: #353232;
+  border: #292929 1px solid;
   border-radius: 5px;
   width: fit-content;
 }
@@ -324,19 +326,25 @@ hr {
   border-radius: 5px;
   width: fit-content;
 }
+.comptia-logo {
+  margin-bottom: -4px;
+}
 
 .google {
   padding: 10px;
-  background: linear-gradient(to right, 
-  #4285f4, 
-  #ea4335, 
-  #fbbc05, 
-  #34a853, 
-  #673ab7); 
+  background: #314a6b;
   border-radius: 5px;
-  width: fit-content;}
+  width: fit-content;
+}
+.google-icon{
+  margin-bottom: -2px;
+}
+.coursera {
+  margin-bottom: -12px;
+}
 
 .ll {
+  word-spacing: -5px;
   padding: 10px;
   background-color:#0078B8;
   border-radius: 5px;
@@ -347,3 +355,10 @@ hr {
 font-family: "Raleway", sans-serif;
 font-size: .75em;
 }
+
+/* linear-gradient(to right, 
+  #4285f4, 
+  #ea4335, 
+  #fbbc05, 
+  #34a853, 
+  #673ab7);  */
