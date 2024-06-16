@@ -365,3 +365,7 @@ font-size: .75em;
   #fbbc05, 
   #34a853, 
   #673ab7);  */
+
+.cert-logo {
+  margin-bottom: -10px;
+}
