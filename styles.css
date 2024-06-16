@@ -257,7 +257,6 @@ hr {
   overflow: hidden;
   background-color: #333;
   font-family: "Raleway", sans-serif;
-  font-family: "Raleway", sans-serif;
   font-size: medium !important;
   border-radius: 5px;
 }
@@ -282,7 +281,9 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
+  .navbar a:not(:first-child) {
+      display: none;
+  }
   .navbar a.icon {
       float: right;
       display: block;
@@ -290,7 +291,9 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
+  .navbar.responsive {
+      position: relative;
+  }
   .navbar.responsive .icon {
       position: absolute;
       right: 0;

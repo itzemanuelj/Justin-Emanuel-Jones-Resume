@@ -22,134 +22,151 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/c185e2d1c9.js" crossorigin="anonymous"></script>
 </head>
 
+<body>
 <header>
     <div class="navbar" id="myNavbar">
-        <a href="index.html "target="_blank"><img class="nav-img" src="/images/nav/home.png" height="25" width="25">Home</a>
-        <a href="Certifications.html "target="_blank"><img class="nav-img" src="/images/nav/certs.png" height="25" width="25">Certifications</a>
-        <a href="Projects.html "target="_blank"><img class="nav-img" src="/images/nav/projects.png" height="25" width="25">Projects</a>
-        <a href="Work Experience.html "target="_blank"><img class="nav-img" src="/images/nav/we.png" height="25" width="25">Work Experience</a>
+        <a href="index.html" target="_blank"><img class="nav-img" src="/images/nav/home.png" height="25" width="25">Home</a>
+        <a href="Certifications.html" target="_blank"><img class="nav-img" src="/images/nav/certs.png" height="25" width="25">Certifications</a>
+        <a href="Projects.html" target="_blank"><img class="nav-img" src="/images/nav/projects.png" height="25" width="25">Projects</a>
+        <a href="Work Experience.html" target="_blank"><img class="nav-img" src="/images/nav/we.png" height="25" width="25">Work Experience</a>
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
-        <img src="/images/nav/Hamburg.png" alt="nav button" height="25" width="25">
-    </a>
+            <img id="nav-icon" src="/images/nav/Hamburg.png" alt="nav button" height="25" width="25">
+        </a>
     </div>
 </header>
 
-    <script>
-        function toggleNavbar() {
-            var x = document.getElementById("myNavbar");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
+<script>
+    function toggleNavbar() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
         }
-    </script>
-    <body>
- <h1 class="txt1"><span class="red">Just <a href="https://www.linkedin.com/in/itzemanuelj/ "target="_blank">
-    <i class="fa-brands fa-linkedin"style=color:#0073AE;></i></a> <span class="white"> Jones</span>
-    </h1></span>
-        <p id="itname" class="mini">TECH SUPPORT SPECIALIST</p>
-            <a href="https://www.linkedin.com/in/itzemanuelj/ "target="_blank">
-            <img src="images/footer/link.png" alt="linkedin logo" height="45" width="45"></a>
-            &nbsp;
-            &nbsp;
-            <a href="mailto:itzemanuelj@gmail.com">
-            <img src="images/footer/gmail.png" alt="gmail logo" height="45" width="45"></a>
-            &nbsp;
-            &nbsp;
-            <a href="https://github.com/itzemanuelj"target="_blank">
-            <img src="images/footer/github.png" alt="github logo" height="45" width="45"></a>
-            &nbsp;
-            &nbsp;
-            <a href="https://ko-fi.com/itzemanuelj" target="_blank"target="_blank">
-            <img src="images/footer/kofi.png" alt="ko-fi logo" height="45" width="45"></a>
-            &nbsp;
-            &nbsp;
-            <a href="https://buymeacoffee.com/itzemanuelj" target="_blank" target="_blank"target="_blank">
-                <img src="images/footer/bmac.png" alt="buy me a coffe logo" height="45" width="45"></a>
-            <div class="container">
-                
 
-            <div class="section">
-            <h2 class="rainbow">Qualifications</h2>
-            <p>Customer service professional with 5+ years of experience in providing outstanding support and resolving
-                customer issues efficiently. Possess excellent communication and problem-solving skills, with a keen
-                interest in transitioning to an IT Help Desk role. Eager to leverage strong interpersonal abilities and
-                a passion for technology to deliver exceptional technical support and enhance user satisfaction.</p>
-        </div>
-        <hr>
-        <h2 style="background-color:#b33f40;" class="txt2">Education</h2>
-        <p class="txt3">Martin Luther King Jr. Senior High School</p>
-        <p>3200 E Lafayette St, Detroit, MI 48207</p>
-        <a class="edu" href="https://www.detroitk12.org/cms/lib/MI50000060/Centricity/Domain/109/MSAT%20One%20Pager.pdf "target="_blank">
-            MSAT </a > <bold class="edu"> &nbsp; &nbsp;| &nbsp;2009 – 2013</bold> 
-            <hr class="hr">
-        <p class="txt3">Zero To Mastery Academy <img src="images/ztm.jpg" alt="ztm logo" height="25" width="25"></p>
-    </div>
-    <hr>
+        // Toggle the icon image
+        var icon = document.getElementById('nav-icon');
+        if (icon.src.includes('Hamburg.png')) {
+            icon.src = '/images/nav/Hamburg2.png';
+        } else {
+            icon.src = '/images/nav/Hamburg.png';
+        }
+    }
 
+    var icon = document.getElementById('nav-icon');
+        if (icon.src.includes('Hamburg.png')) {
+            icon.src = '/images/nav/Hamburg.png';
+            icon.style.width = '25px'; // Set new width
+            icon.style.height = '25px'; // Set new height
+        } else {
+            icon.src = '/images/nav/Hamburg2.png';
+            icon.style.width = '25px'; // Set back to original width
+            icon.style.height = '25px'; // Set back to original height
+        }
+    
+
+</script>
+
+<h1 class="txt1"><span class="red">Just <a href="https://www.linkedin.com/in/itzemanuelj/" target="_blank">
+    <i class="fa-brands fa-linkedin" style="color:#0073AE;"></i></a> <span class="white"> Jones</span>
+</h1></span>
+<p id="itname" class="mini">TECH SUPPORT SPECIALIST</p>
+<a href="https://www.linkedin.com/in/itzemanuelj/" target="_blank">
+    <img src="images/footer/link.png" alt="linkedin logo" height="45" width="45"></a>
+&nbsp;
+&nbsp;
+<a href="mailto:itzemanuelj@gmail.com">
+    <img src="images/footer/gmail.png" alt="gmail logo" height="45" width="45"></a>
+&nbsp;
+&nbsp;
+<a href="https://github.com/itzemanuelj" target="_blank">
+    <img src="images/footer/github.png" alt="github logo" height="45" width="45"></a>
+&nbsp;
+&nbsp;
+<a href="https://ko-fi.com/itzemanuelj" target="_blank">
+    <img src="images/footer/kofi.png" alt="ko-fi logo" height="45" width="45"></a>
+&nbsp;
+&nbsp;
+<a href="https://buymeacoffee.com/itzemanuelj" target="_blank">
+    <img src="images/footer/bmac.png" alt="buy me a coffee logo" height="45" width="45"></a>
+<div class="container">
     <div class="section">
-        <h2 style="background-color:#8fb0ce;" class="txt2">Technical Skills</h2>
-        <ul>
-            <li>Technical Troubleshooting</li>
-            <li>IT Documentation</li>
-            <li>Active Directory</li>
-            <li>Windows</li>
-            <li>Ticket Management</li>
-            <li>Hardware Installation</li>
-            <li>Azure</li>
-            <li>macOS</li>
-            <li>Remote Support</li>
-            <li>Software Installation</li>
-            <li>Microsoft 365</li>
-            <li>Chrome OS</li>
-        </ul>
+        <h2 class="rainbow">Qualifications</h2>
+        <p>Customer service professional with 5+ years of experience in providing outstanding support and resolving
+            customer issues efficiently. Possess excellent communication and problem-solving skills, with a keen
+            interest in transitioning to an IT Help Desk role. Eager to leverage strong interpersonal abilities and
+            a passion for technology to deliver exceptional technical support and enhance user satisfaction.</p>
     </div>
     <hr>
-    <div class="section">
-        <h2 style="background-color:#3A3A3A;" class="txt2">Home Labs</h2>
-        <ul>
-            <li>Implemented Linux VM instances using VirtualBox, enabling secure remote access via SSH login.</li>
-            <li>Deployed and administered Windows Server 2022 VM within VirtualBox, focusing on Active Directory
-                configuration, setup, management, accounts and group policies.</li>
-            <li>Deploying and managing Windows 7, 8, 10, and 11 VM using VirtualBox.</li>
-            <li>Utilized Jira for creating, resolving, and completing tickets to manage IT support tasks
-                efficiently.</li>
-        </ul>
-    </div>
-    <hr>
-    <div class="section">
-        <h2 style="background-color:#8fb0ce;" class="txt2">Projects</h2>
-        <ul>
-            <a href="/Projects.html" target="_blank" rel="noopener noreferrer">
-                DevOps Bootcamp: Learn Linux & Become a Linux Sysadmin via ZTM  
-                <img src="images/ztm.jpg" alt="ztm logo" height="35" width="35">
-            </a>
-        </ul>
-    </div>
-    <hr>
-    <div class="section">
-        <h2 
-        class="Certifications">
-        Certifications</h2></a> 
-        <ul>
-                <a href="https://www.certmetrics.com/comptia/public/verification.aspx?code=NQDDM4V82Q9PV0KK"target="_blank">
-                    CompTIA IT Fundamentals (ITF+)&nbsp;<img src="images/itf.png" alt="comptia itf+ cert logo" height="35" width="35">
-                </a>
-            </p>
-            <p>CompTIA A+ (Core 1) &nbsp;<img src="images/a.png" alt="comptia a+ cert logo" height="35" width="35"></p>
-            <p>CompTIA A+ (Core 2) &nbsp;<img src="images/a.png" alt="comptia a+ cert logo" height="35" width="35"> Expected Q4</p>
+    <h2 style="background-color:#b33f40;" class="txt2">Education</h2>
+    <p class="txt3">Martin Luther King Jr. Senior High School</p>
+    <p>3200 E Lafayette St, Detroit, MI 48207</p>
+    <a class="edu" href="https://www.detroitk12.org/cms/lib/MI50000060/Centricity/Domain/109/MSAT%20One%20Pager.pdf" target="_blank">
+        MSAT </a > <bold class="edu"> &nbsp; &nbsp;| &nbsp;2009 – 2013</bold> 
+    <hr class="hr">
+    <p class="txt3">Zero To Mastery Academy <img src="images/ztm.jpg" alt="ztm logo" height="25" width="25"></p>
+</div>
+<hr>
+
+<div class="section">
+    <h2 style="background-color:#8fb0ce;" class="txt2">Technical Skills</h2>
+    <ul>
+        <li>Technical Troubleshooting</li>
+        <li>IT Documentation</li>
+        <li>Active Directory</li>
+        <li>Windows</li>
+        <li>Ticket Management</li>
+        <li>Hardware Installation</li>
+        <li>Azure</li>
+        <li>macOS</li>
+        <li>Remote Support</li>
+        <li>Software Installation</li>
+        <li>Microsoft 365</li>
+        <li>Chrome OS</li>
+    </ul>
+</div>
+<hr>
+<div class="section">
+    <h2 style="background-color:#3A3A3A;" class="txt2">Home Labs</h2>
+    <ul>
+        <li>Implemented Linux VM instances using VirtualBox, enabling secure remote access via SSH login.</li>
+        <li>Deployed and administered Windows Server 2022 VM within VirtualBox, focusing on Active Directory
+            configuration, setup, management, accounts and group policies.</li>
+        <li>Deploying and managing Windows 7, 8, 10, and 11 VM using VirtualBox.</li>
+        <li>Utilized Jira for creating, resolving, and completing tickets to manage IT support tasks
+            efficiently.</li>
+    </ul>
+</div>
+<hr>
+<div class="section">
+    <h2 style="background-color:#8fb0ce;" class="txt2">Projects</h2>
+    <ul>
+        <a href="/Projects.html" target="_blank" rel="noopener noreferrer">
+            DevOps Bootcamp: Learn Linux & Become a Linux Sysadmin via ZTM  
+            <img src="images/ztm.jpg" alt="ztm logo" height="35" width="35">
+        </a>
+    </ul>
+</div>
+<hr>
+<div class="section">
+    <h2 class="Certifications">Certifications</h2>
+    <ul>
+        <a href="https://www.certmetrics.com/comptia/public/verification.aspx?code=NQDDM4V82Q9PV0KK" target="_blank">
+            CompTIA IT Fundamentals (ITF+)&nbsp;<img src="images/itf.png" alt="comptia itf+ cert logo" height="35" width="35">
+        </a>
+    </p>
+    <p>CompTIA A+ (Core 1) &nbsp;<img src="images/a.png" alt="comptia a+ cert logo" height="35>
+    <p>CompTIA A+ (Core 2) &nbsp;<img src="images/a.png" alt="comptia a+ cert logo" height="35" width="35"> Expected Q4</p>
             <p>
                 <a href="https://www.coursera.org/account/accomplishments/verify/WQ283W3YRVDG"target="_blank" target="_blank" rel="noopener noreferrer">
                     Google IT Support Certificate <img src="images/Google-IT-Professional-Certificate-Logo.png" alt="google it cert logo" height="35" width="60">
                 </a>
                 <p>
                 <a href="/Certifications.html"target="_blank">
-                <img class="nav-img" src="/images/nav/see more.PNG" height="25" width="25">
+                <img class="nav-img" src="/images/nav/see more.PNG" height="30" width="30">
                 View All Certifications 
                 </a>
             </p>
