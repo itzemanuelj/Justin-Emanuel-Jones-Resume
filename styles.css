@@ -22,7 +22,7 @@ height: auto;
 
 h1 {
   font-size: 3em;  
-  color: rgb(11, 11, 11); /* Inner text color */ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black, -2px 0 0 black, 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black;
+  color: rgb(11, 11, 11); /* Inner text color */ text-shadow: -1px -1px 0 black, 2px -1px 0 black, -1px 2px 0 black, 2px 2px 0 black, -1px 0 0 black, 2px 0 0 black, 0 -1px 0 black, 0 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black, -2px 0 0 black, 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black;
 }
 
 h2,
@@ -360,6 +360,16 @@ hr {
 font-family: "Raleway", sans-serif;
 font-size: .75em;
 }
+
+.cc {
+  font-size: 20px;
+  word-spacing: -2px;
+  padding: 8px;
+  background-color:#1c1d1e;
+  border-radius: 5px;
+  width: fit-content;
+}
+
 
 /* linear-gradient(to right, 
   #4285f4, 
