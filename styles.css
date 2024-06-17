@@ -24,7 +24,6 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: black;
-  text-shadow: #FFF;
 }
 
 h2,
@@ -71,6 +70,7 @@ footer {
   border-radius: 5px;
   background-color: #4f4d4d;
   padding: 20px;
+  background-image: url(/images/Footer\ img.JPG);
 }
 
 .cert-list {
