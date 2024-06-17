@@ -21,8 +21,8 @@ height: auto;
 }
 
 h1 {
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: black;
+  text-shadow: -0.8px -5px 0 #000, 0.5px -5px 0 #000, -0.8px 7px 0 #000, 3px 7px 0 #000;
+
 }
 
 h2,
@@ -67,9 +67,7 @@ a:active {
 
 footer {
   border-radius: 5px;
-  background-color: #4f4d4d;
-  padding: 20px;
-  background-image: url(/images/Footer\ img.JPG);
+  background: linear-gradient(to right, #8f8478 0%, #304352 100%);  padding: 20px;
 }
 
 .cert-list {
@@ -83,7 +81,7 @@ margin-left: -0.7em;
 
 .txt1 {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 3.5em;
+font-size: 3em;
 }
 
 .mini {
