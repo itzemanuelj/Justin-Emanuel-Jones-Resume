@@ -20,7 +20,13 @@ height: auto;
   font-optical-sizing: auto;
 }
 
-h1,
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
+  text-shadow: #FFF;
+}
+
 h2,
 h3 {
   color: #fcfdfee6;
@@ -77,9 +83,8 @@ margin-left: -0.7em;
 }
 
 .txt1 {
-  font-family: "raleway", serif;
-  font-size: 3em;
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 3.5em;
 }
 
 .mini {
@@ -135,7 +140,7 @@ align-items: end;
 }
 
 .red {
-  color: #E70F32;
+color: #E70F32;
 word-spacing: 0%;}
 
 .white {
