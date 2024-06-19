@@ -259,6 +259,7 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: medium !important;
   border-radius: 5px;
+  /* border: green 1px solid; */
 }
 
 .navbar a {
@@ -266,8 +267,10 @@ hr {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px ;
   text-decoration: none;
+  margin: 5px;
+  /* border: red 1px solid; */
 }
 
 .navbar a:hover {
