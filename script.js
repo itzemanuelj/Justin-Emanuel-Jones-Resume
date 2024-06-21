@@ -18,7 +18,7 @@ function getRandomInt(max) {
 var intervalId = setInterval(function() {
   var textElement = document.getElementById('itname');
   textElement.innerHTML = itname[i];
-  textElement.style.fontFamily = 'Comic Sans MS','Comic Neue'; // Set the font to 'Comic Sans MS'
+  textElement.style.fontFamily = 'Comic Sans MS'; // Set the font to 'Comic Sans MS'
 
   i = (i + 1) % itname.length;
 }, 700);
