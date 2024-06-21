@@ -225,7 +225,7 @@ word-spacing: 0%;}
   color: rgb(255, 255, 255);
   background:#4f4f4f;;
   border-radius: 5px;
-  width: 100%;
+  width:100%;
   padding: 4px;
 }
 
@@ -239,7 +239,6 @@ word-spacing: 0%;}
   border-radius: 5px;
   padding: 1.5px; /* Adjust if needed to match the border width */
   background:  linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, rgb(8, 148, 52) 100%);
-
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
