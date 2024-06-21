@@ -160,7 +160,7 @@ word-spacing: 0%;}
   color: rgb(255, 255, 255);
   background: #4f4d4d;
   border-radius: 5px;
-  width: fit-content;
+  width: 100%;
   padding: 4px;
 }
 
