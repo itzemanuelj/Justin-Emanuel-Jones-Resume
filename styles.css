@@ -171,7 +171,7 @@ word-spacing: 0%;}
   left: -1px;
   right: -1px;
   bottom: -1px;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 2px; /* Adjust if needed to match the border width */
   background:linear-gradient(90deg,rgba(0,255,200,1)0%,rgba(0,181,255,1)50%,rgba(255,0,176,1)100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, 
@@ -194,7 +194,7 @@ word-spacing: 0%;}
   background:#4f4f4f;;
   border-radius: 5px;
   width: 100%;
-  padding: 4px;
+  padding: 2px;
 }
 
 .txt2::before {
@@ -238,7 +238,7 @@ word-spacing: 0%;}
   bottom: -1px;
   border-radius: 5px;
   padding: 2px ; /* Adjust if needed to match the border width */
-  background:  linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, rgb(8, 148, 52) 100%);
+  background:  linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, rgb(162, 175, 41) 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -346,7 +346,7 @@ hr {
   right: -1px;
   bottom: -1px;
   border-radius: 5px;
-  padding: 2px; /* Adjust the padding to control the border width */
+  padding: 5px; /* Adjust the padding to control the border width */
   background: linear-gradient(90deg, rgba(255, 0, 176, 1) 0%, rgba(0, 181, 255, 1) 50%, rgba(0, 255, 200, 1) 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
