@@ -10,7 +10,9 @@ var itname = [
 ];
 
 var fonts = [
-  'Comic Sans MS', 
+  'Comic Sans MS',
+
+  
 ];
 
 var i = 0;
