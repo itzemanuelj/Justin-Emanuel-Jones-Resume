@@ -11,8 +11,16 @@ var itname = [
 
 var fonts = [
   'Comic Sans MS',
-
-  
+  "Comic Neue",
+  "Indie Flower",
+  "Pacifico",
+  "Dancing Script",
+  "Patrick Hand",
+  "Shadows Into Light",
+  "Amatic SC",
+  "Great Vibes",
+  "Kaushan Script",
+  "Allura"
 ];
 
 var i = 0;
