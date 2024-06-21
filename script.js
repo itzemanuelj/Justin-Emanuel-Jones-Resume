@@ -10,9 +10,7 @@ var itname = [
 ];
 
 var fonts = [
-  'Arial', 'Helvetica', 'Times New Roman', 'Courier New', 'Verdana', 'Georgia',
-  'Trebuchet MS', 'Lucida Console', 'Impact', 'Tahoma', 'Palatino',
-  'Garamond', 'Comic Sans MS', 'Arial Black'
+  'Comic Sans MS', 
 ];
 
 var i = 0;
