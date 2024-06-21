@@ -169,12 +169,10 @@ word-spacing: 0%;}
   font-size: 2.10em;
   color: rgb(255, 255, 255);
   background: #3A3A3A;
-  border-radius: 15px;
+  border-radius: 5px;
   width: fit-content;
   padding: 0.1em;
-  border: 1px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right, red, yellow);
+  /* border: 1px solid; */
 }
 
 .Certifications {
