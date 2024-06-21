@@ -9,31 +9,16 @@ var itname = [
   'TECHNICAL SUPPORT ADVISOR', 'APPLICATION SUPPORT ANALYST'
 ];
 
-var fonts = [
-  'Comic Sans MS',
-  "Comic Neue",
-  "Indie Flower",
-  "Pacifico",
-  "Dancing Script",
-  "Patrick Hand",
-  "Shadows Into Light",
-  "Amatic SC",
-  "Great Vibes",
-  "Kaushan Script",
-  "Allura"
-];
-
 var i = 0;
 
-function getRandomFont() {
-  var randomIndex = Math.floor(Math.random() * fonts.length);
-  return fonts[randomIndex];
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
 }
 
 var intervalId = setInterval(function() {
   var textElement = document.getElementById('itname');
   textElement.innerHTML = itname[i];
-  textElement.style.fontFamily = getRandomFont();
+  textElement.style.fontFamily = 'Comic Sans MS'; // Set the font to 'Comic Sans MS'
 
   i = (i + 1) % itname.length;
 }, 700);
