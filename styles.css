@@ -172,7 +172,7 @@ word-spacing: 0%;}
   right: -1px;
   bottom: -1px;
   border-radius: 5px;
-  padding: 1.5px; /* Adjust if needed to match the border width */
+  padding: 2px; /* Adjust if needed to match the border width */
   background:linear-gradient(90deg,rgba(0,255,200,1)0%,rgba(0,181,255,1)50%,rgba(255,0,176,1)100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, 
   linear-gradient(#fff 0 0);
@@ -205,7 +205,7 @@ word-spacing: 0%;}
   right: -1px;
   bottom: -1px;
   border-radius: 5px;
-  padding: 1.5px; /* Adjust if needed to match the border width */
+  padding: 2px; /* Adjust if needed to match the border width */
   background: linear-gradient(90deg, rgb(231, 206, 84) 0%, hsla(335, 93%, 68%, 1) 50%, hsla(252, 89%, 78%, 1) 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
@@ -237,7 +237,7 @@ word-spacing: 0%;}
   right: -1px;
   bottom: -1px;
   border-radius: 5px;
-  padding: 1.5px; /* Adjust if needed to match the border width */
+  padding: 2px ; /* Adjust if needed to match the border width */
   background:  linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, rgb(8, 148, 52) 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
@@ -346,7 +346,7 @@ hr {
   right: -1px;
   bottom: -1px;
   border-radius: 5px;
-  padding: 3px; /* Adjust the padding to control the border width */
+  padding: 2px; /* Adjust the padding to control the border width */
   background: linear-gradient(90deg, rgba(255, 0, 176, 1) 0%, rgba(0, 181, 255, 1) 50%, rgba(0, 255, 200, 1) 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
