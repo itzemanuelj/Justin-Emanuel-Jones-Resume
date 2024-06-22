@@ -18,7 +18,7 @@ var fonts = [
   'Verdana, sans-serif',
   'Trebuchet MS, sans-serif',
   'Impact, sans-serif',
-  'Comic Sans MS, cursive, sans-serif',
+  'Comic Sans MS, sans-serif',
   'Lucida Console, monospace',
   'Lucida Sans Unicode, Lucida Grande, sans-serif',
   'Tahoma, sans-serif',
