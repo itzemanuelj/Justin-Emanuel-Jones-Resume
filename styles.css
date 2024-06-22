@@ -142,6 +142,7 @@ word-spacing: 0%;}
 
 .white {
   color: rgb(255, 255, 255);
+  color: #FFF; /* Inner text color */ text-shadow: -1px -1px 0 #479c9d, 2px -1px 0 #479c9d, -1px 2px 0 #479c9d, 2px 2px 0 #479c9d, -1px 0 0 #479c9d, 2px 0 0 #479c9d, 0 -1px 0 #479c9d, 0 2px 0 #479c9d, -2px -2px 0 #479c9d, 2px -2px 0 #479c9d, -2px 2px 0 #479c9d, 2px 2px 0 #479c9d, -2px 0 0 #479c9d, 2px 0 0 #479c9d, 0 -2px 0 #479c9d, 0 2px 0 #479c9d;
 
 }
 
@@ -206,7 +207,7 @@ word-spacing: 0%;}
   color: rgb(255, 255, 255);
   background:#76ABAE;;
   border-radius: 5px;
-  width: fit-content;
+  width:fit-content;
   padding: 2px;
 }
 
