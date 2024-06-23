@@ -423,7 +423,7 @@ hr {
   font-size: larger;
   color: #16559B;
   padding: 7px;
-  background-color: #161313;
+  background-color: #1b1818;
   border-radius: 5px;
   width: fit-content;
 }
@@ -437,6 +437,13 @@ hr {
 .comptia-logo {
   margin-bottom: -4px;
 }
+
+.ms-logo {
+  background-color: #1b1818;
+  border-radius: 5px;
+  height: 55px;
+}
+
 
 .google {
   font-size: 20px;
@@ -467,10 +474,8 @@ font-size: .75em;
 }
 
 .cc {
-  font-size: 20px;
-  word-spacing: -2px;
   padding: 8px;
-  background-color:#1c1d1e;
+  background-color:#1b1818;
   border-radius: 5px;
   width: fit-content;
 }
@@ -550,9 +555,34 @@ word-spacing: 10px;
 }
 
 /* Tablet styles */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .container {
-      width: 80%;
+@media (min-width: 1025px) {
+  body {
+    width: 75%;
   }
-}
-}
+  .navbar {
+    display: flex;
+    justify-content: baseline;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .txt1 {
+    font-size: 100px;
+  }
+  #itname {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .contacts {
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+  }
+  .footer-items {
+    display: flex;
+    justify-content: baseline;
+    word-spacing: 10px;
+  }
+}}
