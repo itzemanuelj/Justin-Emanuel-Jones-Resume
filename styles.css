@@ -75,6 +75,10 @@ footer {
 list-style: none;
 }
 
+.p-list {
+  margin-left: 25px;
+}
+
 li {
 margin-left: -0.7em;
 
