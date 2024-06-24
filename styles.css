@@ -110,6 +110,15 @@ font-size: 3em;
 }
 
 
+.fge {
+  background: #1b1818;
+  color: #8CBCE5;
+  border-radius: 5px;
+  margin-right:5px;
+  width: fit-content;
+  padding: 0.1em;
+}
+
 .bl {
   background: #FE5200;
   border-radius: 5px;
@@ -426,7 +435,7 @@ hr {
 }
  /* Certs */
 .forage {
-  font-size: larger;
+  font-weight: 600;
   color: #8CBCE5;
   padding: 10px;
   background-color: #1b1818;
