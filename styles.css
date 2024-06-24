@@ -443,6 +443,10 @@ hr {
   width: fit-content;
 }
 
+.forage-img {
+margin-bottom: -3px;
+}
+
 .CompTIA {
   padding: 5px;
   background-color: #EF362C;
