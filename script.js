@@ -9,35 +9,14 @@ var itname = [
   'TECHNICAL SUPPORT ADVISOR', 'APPLICATION SUPPORT ANALYST'
 ];
 
+
 var fonts = [
-  'cursive',
+  'Helvetica, sans-serif',
+  'Impact, sans-serif',
+  'Comic Sans MS, sans-serif',
+  'Roboto, sans-serif',
+  'Raleway, sans-serif',
  ];
-
-
-// var fonts = [
-//   'Arial, sans-serif',
-//   'Helvetica, sans-serif',
-//   'Times New Roman, serif',
-//   'Georgia, serif',
-//   'Courier New, monospace',
-//   'Verdana, sans-serif',
-//   'Trebuchet MS, sans-serif',
-//   'Impact, sans-serif',
-//   'Comic Sans MS, sans-serif',
-//   'Lucida Console, monospace',
-//   'Lucida Sans Unicode, Lucida Grande, sans-serif',
-//   'Tahoma, sans-serif',
-//   'Palatino Linotype, Book Antiqua, Palatino, serif',
-//   'Garamond, serif',
-//   'MS Sans Serif, Geneva, sans-serif',
-//   'MS Serif, New York, serif',
-//   'Roboto, sans-serif',
-//   'Open Sans, sans-serif',
-//   'Lato, sans-serif',
-//   'Montserrat, sans-serif',
-//   'cursive',
-//   'Raleway, sans-serif',
-//  ];
 
 var i = 0;
 
