@@ -12,7 +12,7 @@ var itname = [
 
 var fonts = [
   'Helvetica, sans-serif',
-  'Impact, sans-serif',
+  'sans-serif',
   'Comic Sans MS, sans-serif',
   'Roboto, sans-serif',
   'Raleway, sans-serif',
