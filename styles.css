@@ -110,35 +110,34 @@ font-size: 3em;
 }
 
 
-.fge {
+#fge {
   background: #1b1818;
   color: #7290F0;
   border-radius: 5px;
   margin-right:5px;
-  width: fit-content;
+  width: 100%;
   padding: 0.1em;
 }
 
-.bl {
+#bl {
   background: #FE5200;
   border-radius: 5px;
   margin-right:5px;
-  width: fit-content;
+  width: 100%;
   padding: 0.1em;
 }
-.ah {
+#ah {
   background: #0AA6CD;
   border-radius: 5px;
-  margin-right:5px;
-  width: fit-content;
+  width: 100%;
   padding: 0.1em;
 }
 
-.w {
+#w {
   background: #E62600;
   border-radius: 5px;
   margin-right:5px;
-  width: fit-content;
+  width: 100%;
   padding: 0.1em;
 }
 
