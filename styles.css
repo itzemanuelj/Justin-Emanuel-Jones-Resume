@@ -428,7 +428,7 @@ hr {
 .forage {
   font-size: larger;
   color: #16559B;
-  padding: 7px;
+  padding: 10px;
   background-color: #1b1818;
   border-radius: 5px;
   width: fit-content;
@@ -437,7 +437,7 @@ hr {
 .CompTIA {
   padding: 5px;
   background-color: #EF362C;
-  border-radius: 5px;
+  border-radius: 5px;;
   width: fit-content;
 }
 .comptia-logo {
@@ -448,7 +448,7 @@ hr {
   padding: auto;
   background-color: #1b1818;
   border-radius: 5px;
-  height: 55px;
+  height: 52px;
 }
 
 
@@ -485,6 +485,14 @@ font-size: .75em;
   background-color:#1b1818;
   border-radius: 5px;
   width: fit-content;
+  padding: 12px;
+  /* border: 1px red solid; */
+}
+
+.cc-down {
+  margin-bottom: -5px;
+  /* border: 1px green solid; */
+
 }
 
 
