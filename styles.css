@@ -337,6 +337,8 @@ hr {
   }
   h1 {
     font-size: 1.2em;
+    display: flex;
+    justify-content: center;
   }
   h2 {
     font-size: 1em;
