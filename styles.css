@@ -104,7 +104,7 @@ font-size: 3em;
 #projects {
   background: #657483;
   border-radius: 5px;
-  width: 100%;
+  width: 99.2%;
   padding: 5px;
 }
 
@@ -530,7 +530,7 @@ font-size: .75em;
 @media (max-width: 767px) {
   body {
       width: 95%;
-      padding-left: 2px;
+      padding-left: 2.5px;
       /* border: 1px red solid; */
   }
   #itname {
