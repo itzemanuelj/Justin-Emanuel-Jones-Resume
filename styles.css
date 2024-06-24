@@ -526,6 +526,12 @@ font-size: .75em;
   margin-bottom: -13px;
 }
 
+.certification-link {
+  display: inline-flex; /* Ensures elements are on the same line */
+  align-items: center; /* Vertically centers items */
+  text-decoration: none; /* Removes underline from link */
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   body {
