@@ -104,9 +104,8 @@ font-size: 3em;
 #projects {
   background: #657483;
   border-radius: 5px;
-  margin-right:5px;
-  width: fit-content;
-  padding: 10px;
+  width: 100%;
+  padding: 5px;
 }
 
 
@@ -219,7 +218,7 @@ word-spacing: 0%;}
   color: rgb(255, 255, 255);
   background:#76ABAE;;
   border-radius: 5px;
-  width:88%;
+  width:100%;
   padding: 2px;
 }
 
