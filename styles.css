@@ -509,8 +509,10 @@ font-size: .75em;
 
 /* Mobile styles */
 @media (max-width: 767px) {
-  .container {
-      width: 100%;
+  body {
+      width: 95%;
+      padding-left: 2px;
+      /* border: 1px red solid; */
   }
   #itname {
     display: flex;
@@ -532,7 +534,9 @@ font-size: .75em;
 /* Desktop styles */
 @media (min-width: 1025px) {
   body {
-    width: 75%;
+  width: 75%;
+  padding-left: 2px;
+  /* border: 1px red solid; */
 }
 .navbar {
   display: flex;
@@ -565,6 +569,8 @@ word-spacing: 10px;
 @media (min-width: 1025px) {
   body {
     width: 75%;
+    padding-left: 2px;
+    /* border: 1px red solid; */
   }
   .navbar {
     display: flex;
