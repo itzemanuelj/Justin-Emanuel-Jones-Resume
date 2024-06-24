@@ -67,7 +67,7 @@ a:active {
 footer {
   border-radius: 5px;
   padding: 20px; 
-  background: #524b4b;
+  background: #282B35;
 }
 
 
@@ -149,7 +149,7 @@ align-items: end;
 }
 
 .red {
-color: #f35c5f;
+color: #2f5267;
 word-spacing: 0%;}
 
 .white {
@@ -357,7 +357,7 @@ hr {
 
 .navbar {
   overflow: hidden;
-  background-color: #524b4b;
+  background-color: #2E2F2F;
   font-family: "Raleway", sans-serif;
   font-size: medium !important;
   border-radius: 5px;
@@ -393,7 +393,7 @@ hr {
 }
 
 .navbar a:hover {
-  background-color: #0c0c0c;
+  background-color: #000000;
   color: #FFF;
   border-radius: 5px;
 }
