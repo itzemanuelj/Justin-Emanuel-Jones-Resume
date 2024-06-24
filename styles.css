@@ -445,6 +445,7 @@ hr {
 }
 
 .ms-logo {
+  padding: auto;
   background-color: #1b1818;
   border-radius: 5px;
   height: 55px;
