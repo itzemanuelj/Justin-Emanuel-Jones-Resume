@@ -598,6 +598,11 @@ img.more-down1 + img.more-down1 {
       justify-content: center;
       word-spacing: 10px;
       }
+      #center {
+        display: flex;
+        justify-content: center;
+        /* border: red solid 1px; */
+      }
 }
 
 
@@ -634,6 +639,11 @@ word-spacing: 20px;
 justify-content: baseline;
 word-spacing: 10px;
 }
+#center {
+  display: flex;
+  justify-content: center;
+  /* border: red solid 1px; */
+}
 
 /* Tablet styles */
 @media (min-width: 1025px) {
@@ -667,5 +677,10 @@ word-spacing: 10px;
     display: flex;
     justify-content: baseline;
     word-spacing: 10px;
+  }
+  #center {
+    display: flex;
+    justify-content: center;
+    /* border: red solid 1px; */
   }
 }}
