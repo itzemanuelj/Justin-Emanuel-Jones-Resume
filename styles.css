@@ -102,10 +102,10 @@ font-size: 3em;
 
 /* Projects */
 #projects {
-  background: #657483;
   border-radius: 5px;
   width: 99.2%;
   padding: 5px;
+  
 }
 
 
@@ -356,6 +356,7 @@ hr {
 }
 
 .navbar {
+  font-family: "Raleway", sans-serif;
   overflow: hidden;
   background-color: #2E2F2F;
   font-family: "Raleway", sans-serif;
@@ -366,6 +367,7 @@ hr {
 }
 
 .navbar::before {
+  font-family: "Raleway", sans-serif;
   content: '';
   position: absolute;
   top: -1px;
@@ -382,6 +384,7 @@ hr {
 }
 
 .navbar a {
+  font-family: "Raleway", sans-serif;
   float: left;
   display: block;
   color: #FFF;
@@ -535,6 +538,9 @@ font-size: .75em;
 
 .more-down {
   margin-bottom: -13px;
+}
+img.more-down + img.more-down {
+  margin-left: -10px; /* Adjust this value as needed for spacing */
 }
 
 .certification-link {
