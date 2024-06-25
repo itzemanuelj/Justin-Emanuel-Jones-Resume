@@ -575,6 +575,8 @@ img.more-down1 + img.more-down1 {
   text-decoration: none; /* Removes underline from link */
 }
 
+
+
 /* Mobile styles */
 @media (max-width: 767px) {
   body {
