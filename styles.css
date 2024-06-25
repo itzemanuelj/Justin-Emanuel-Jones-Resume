@@ -543,6 +543,20 @@ img.more-down + img.more-down {
   margin-left: -10px; /* Adjust this value as needed for spacing */
 }
 
+img.more-down1 + img.more-down1 {
+  margin-left: -10px; /* Adjust this value as needed for spacing */
+}
+
+.more-down1 {
+  margin-right: -15px; /* Adjust the value to make images closer */
+}
+.more-down1:last-child {
+  margin-right: 0; /* No margin on the last image */
+}
+.more-down1 {
+  margin-bottom: -10px;
+}
+
 .certification-link {
   display: inline-flex; /* Ensures elements are on the same line */
   align-items: center; /* Vertically centers items */
