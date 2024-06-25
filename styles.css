@@ -226,12 +226,12 @@ word-spacing: 0%;}
   position: relative;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2.10em;
+  font-size: 25px;
   color: rgb(255, 255, 255);
   background:#76ABAE;;
   border-radius: 5px;
   width:100%;
-  padding: 2px;
+  padding: 5px;
 }
 
 .txt2::before {
