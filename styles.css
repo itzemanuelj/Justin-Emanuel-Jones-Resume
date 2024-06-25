@@ -506,6 +506,17 @@ font-size: .75em;
 
 }
 
+.svg-float {
+  position: relative;
+  height: 200px; /* Adjust the height of the container as needed */
+}
+.floating-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 /* linear-gradient(to right, 
   #4285f4, 
