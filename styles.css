@@ -249,6 +249,7 @@ word-spacing: 0%;}
   mask-composite: exclude; */
 }
 
+
 .txt2 {
   position: relative;
   z-index: 1;
@@ -307,6 +308,8 @@ hr {
   margin-left: 0;
   opacity: 4%;
 }
+
+
 
 @media (max-width: 1200px) {
   .container {
