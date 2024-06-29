@@ -27,16 +27,15 @@ h1 {
 }
 
 .small-h1{
-  word-spacing: 3px;
-  padding: 10px;
-  font-size: 1.2em;
+  padding: 9px;
+  font-size: 1em;
   text-shadow: none !important;
   display: flex;
   justify-content: center;
   background-color: #2E2F2F;
   border-radius: 5px;
   margin: auto;
-  border: #FFF solid 0.1px;
+  border: #2F5267 0.25px solid;
 }
  .up {
   margin-top: -5px;
@@ -45,16 +44,17 @@ h1 {
 
 
  .center-container {
+  /* border: 1px red solid; */
   display: flex;
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically if needed */
+  padding: 2px;
 }
 
 .centered-link {
   display: flex;
   justify-content: center;
   align-items: center;      /* Align items in the center */
-  margin-left: -40px;       /* Adjust this value as needed */
   background-color: #2E2F2F;
   width: fit-content;
   border-radius: 5px;
@@ -165,12 +165,13 @@ font-size: 3em;
 
 
 #fge {
-  background: #222020c9;
+  background: #2E2F2F;
   color: #7290F0;
   border-radius: 5px;
   margin-right:5px;
   width: 100%;
   padding: 0.1em;
+  
 }
 
 #bl {
@@ -204,6 +205,7 @@ align-items: end;
 }
 
 .red {
+  font-size: 1em;
 color: #2f5267;
 word-spacing: 0%;}
 
@@ -421,6 +423,7 @@ hr {
   border-radius: 5px;
   position: relative;
   z-index: 1;
+  /* border: #2F5267 0.25px solid; */
 }
 
 .navbar::before {
@@ -517,7 +520,7 @@ margin-bottom: -3px;
 
 .ms-logo {
   padding: auto;
-  background-color: #222020c9;
+  background-color: #2E2F2F;
   border-radius: 5px;
   height: 52px;
 }
@@ -553,7 +556,7 @@ font-size: .75em;
 
 .cc {
   padding: 8px;
-  background-color:#222020c9;
+  background-color:#2E2F2F;
   border-radius: 5px;
   width: fit-content;
   padding: 12px;
