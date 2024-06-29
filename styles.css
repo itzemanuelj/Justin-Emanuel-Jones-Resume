@@ -26,6 +26,48 @@ h1 {
   text-shadow: 16px 26px 26px black;
 }
 
+.small-h1{
+  padding: 10px;
+  font-size: 1.2em;
+  text-shadow: none !important;
+  display: flex;
+  justify-content: center;
+  background-color: #2E2F2F;
+  border-radius: 5px;
+  margin: auto;
+  border: #FFF solid 0.1px;
+}
+ .up {
+  margin-top: -5px;
+  /* border: 1px red solid; */
+ }
+
+
+ .center-container {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically if needed */
+}
+
+.centered-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;      /* Align items in the center */
+  margin-left: -40px;       /* Adjust this value as needed */
+  background-color: #2E2F2F;
+  width: fit-content;
+  border-radius: 5px;
+  text-decoration: none;    /* Remove default link underline */
+}
+
+.centered-link h1 {
+  margin: 0;               /* Remove default margin */
+}
+
+.centered-link img {
+  margin-right: 8px;       /* Adjust margin as needed */
+}
+
 h2,h3 {
   color: #FFF;
 }
@@ -166,7 +208,6 @@ word-spacing: 0%;}
 
 .white {
   color: rgb(255, 255, 255);
-
 }
 
 .email {
