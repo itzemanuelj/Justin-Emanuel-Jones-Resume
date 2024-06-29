@@ -27,6 +27,7 @@ h1 {
 }
 
 .small-h1{
+  word-spacing: 3px;
   padding: 10px;
   font-size: 1.2em;
   text-shadow: none !important;
