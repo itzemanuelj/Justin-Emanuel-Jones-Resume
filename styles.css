@@ -478,6 +478,9 @@ hr {
   
 }
 
+.empty {
+list-style: none;}
+
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {
       display: none;
