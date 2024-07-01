@@ -475,6 +475,7 @@ hr {
 
 .navbar .icon {
   display: none;
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -505,7 +506,10 @@ hr {
 
 .nav-img {
   margin-bottom: -5px;
+  
 }
+
+
  /* Certs */
 .forage {
   font-size: large;
