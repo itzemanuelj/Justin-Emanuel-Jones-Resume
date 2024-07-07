@@ -1,7 +1,7 @@
 html, body {
 font-family: "Raleway", sans-serif;
-  background-color: #3A3B3C;
-  color: #fcfdfee6;
+background-color: #3A3B3C;
+color: #fcfdfee6;
 margin: auto;
 padding: 5px;
 height: auto;
@@ -139,26 +139,23 @@ font-size: 3em;
 .txt3 {
   font-family: "raleway", serif;
   font-size: 1.25em;
-
+  width: 100%;
+  padding: auto;
+  font-size: 25px;
 }
 
 /* Projects */
 #projects {
   border-radius: 5px;
-  width: 99.2%;
-  padding: 5px;
+  width: 100%;
+  padding: auto;
   font-size: 25px;
-}
-
-#server2022 {
-  border-radius: 5px;
-  width: 99.2%;
-  padding: 5px;
-  font-size: 20px;
 }
 
 #ITLabs {
   font-size: 32px;
+  width: 100%;
+  padding: auto;
   /* border: 1px solid red; */
 }
 
@@ -167,32 +164,33 @@ font-size: 3em;
   background: #2E2F2F;
   color: #7290F0;
   border-radius: 5px;
-  margin-right:5px;
   width: 100%;
-  padding: 0.1em;
-  
+  padding: auto;
+  font-size: 25px;
 }
 
 #bl {
   background: #FE5200;
   border-radius: 5px;
-  margin-right:5px;
   width: 100%;
-  padding: 0.1em;
+  padding: auto;
+  font-size: 25px;
 }
+
 #ah {
   background: #0AA6CD;
   border-radius: 5px;
   width: 100%;
-  padding: 0.1em;
+  padding: auto;
+  font-size: 25px;
 }
 
 #w {
   background: #E62600;
   border-radius: 5px;
-  margin-right:5px;
   width: 100%;
-  padding: 0.1em;
+  padding: auto;
+  font-size: 25px;
 }
 
 
@@ -230,7 +228,8 @@ word-spacing: 0%;}
   background: #28a173;
   border-radius: 5px;
   width: 100%;
-  padding: 4px;
+  padding: auto;
+  
 }
 
 .grey::before {
@@ -269,12 +268,11 @@ word-spacing: 0%;}
   position: relative;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-size: 25px;
   color: rgb(255, 255, 255);
   background:#76ABAE;;
   border-radius: 5px;
-  width:100%;
-  padding: 5px;
+  width: 100%;
+  padding: auto;
 }
 
 .txt2::before {
@@ -307,8 +305,10 @@ word-spacing: 0%;}
   background: red;
   border-radius: 5px;
   width:100%;
-  padding: 4px;
+  
 }
+
+
 
 .txt5::before {
   content: '';
