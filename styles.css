@@ -226,7 +226,7 @@ font-size: 3em;
 }
 
 #ah {
-  background: #777777;
+  background: #0AA6CD;
   border-radius: 5px;
   width: 100%; /* Ensures the element takes full width of the container */
   font-size: 25px;
@@ -239,13 +239,15 @@ font-size: 3em;
 }
 
 #ah1 {
-  background: #0AA6CD;
+  background: #777777;
   border-radius: 5px;
   width: 100%;
   font-size: 25px;
   padding: 5px; /* Adjust padding as needed */
   box-sizing: border-box; /* Ensures padding is included in the width */
-
+}
+#ahdown {
+  margin-bottom: -7px;
 }
 
 .wcontainer {
@@ -255,7 +257,7 @@ font-size: 3em;
 }
 
 #w {
-  background: #E31837;
+  background: #02A0C0;
   border-radius: 5px;
   width: 100%; /* Ensures the element takes full width of the container */
   font-size: 25px;
@@ -268,13 +270,17 @@ font-size: 3em;
 }
 
 #w1 {
-  background: #02A0C0;
+  background: #E31837;
   border-radius: 5px;
   width: 100%;
   font-size: 25px;
   padding: 5px; /* Adjust padding as needed */
   box-sizing: border-box; /* Ensures padding is included in the width */
 }
+#wdown {
+  margin-bottom: -7px;
+}
+
 .up {
   margin-bottom: 20px;
 }
