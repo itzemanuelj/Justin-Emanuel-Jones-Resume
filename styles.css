@@ -176,8 +176,6 @@ font-size: 3em;
   justify-content: center;
   align-items: center;
 }
-
-
 #fge1 {
   font-size: 20px;
   background: #2E2F2F;
@@ -194,7 +192,6 @@ font-size: 3em;
   display: flex;
   justify-content: center; /* Centers the child horizontally */
   align-items: center; /* Centers the child vertically */
-  width: 100%; /* Ensure container takes full width */
 }
 
 #bl {
@@ -206,14 +203,9 @@ font-size: 3em;
   padding: 5px; /* Adjust padding as needed */
   box-sizing: border-box; /* Ensures padding is included in the width */
   text-align: center; /* Centers the text inside the element */
-  position: relative; /* Allows absolute positioning for child elements */
   display: flex; /* Enables flexbox layout for the element */
   justify-content: center; /* Centers content horizontally inside the element */
   align-items: center; /* Centers content vertically inside the element */
-}
-
-#bl img {
-  left: 10px; /* Adjust as needed */
 }
 
 #bl1 {
@@ -246,10 +238,6 @@ font-size: 3em;
   align-items: center; /* Centers content vertically inside the element */
 }
 
-#ah img {
-  left: 10px; /* Adjust as needed */
-}
-
 #ah1 {
   background: #0AA6CD;
   border-radius: 5px;
@@ -257,6 +245,7 @@ font-size: 3em;
   font-size: 25px;
   padding: 5px; /* Adjust padding as needed */
   box-sizing: border-box; /* Ensures padding is included in the width */
+
 }
 
 .wcontainer {
@@ -276,10 +265,6 @@ font-size: 3em;
   display: flex; /* Enables flexbox layout for the element */
   justify-content: center; /* Centers content horizontally inside the element */
   align-items: center; /* Centers content vertically inside the element */
-}
-
-#w img {
-  left: 10px; /* Adjust as needed */
 }
 
 #w1 {
