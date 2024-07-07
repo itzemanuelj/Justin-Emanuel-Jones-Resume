@@ -148,10 +148,9 @@ font-size: 3em;
 #projects {
   border-radius: 5px;
   width: 100%;
-  padding: auto;
   font-size: 25px;
-  display: flex;
-  justify-content: center;
+  padding: 10px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
 #ITLabs {
