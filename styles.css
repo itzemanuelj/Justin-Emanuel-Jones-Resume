@@ -169,6 +169,8 @@ font-size: 3em;
   width: 100%;
   padding: auto;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 #bl {
@@ -177,6 +179,8 @@ font-size: 3em;
   width: 100%;
   padding: auto;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 #ah {
@@ -185,6 +189,8 @@ font-size: 3em;
   width: 100%;
   padding: auto;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 #w {
@@ -193,6 +199,8 @@ font-size: 3em;
   width: 100%;
   padding: auto;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 
