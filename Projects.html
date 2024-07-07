@@ -126,7 +126,17 @@ height="45" width="45">Projects</h2>
     </a>
 </div>
 
-<button id="scrollUpBtn" title="Go to top"><img src="/images/Up-button.PNG" width="90" height="90"></button>
+<button 
+style="display: none; /* Hidden by default */
+position: fixed; /* Fixed position */
+bottom: 90px; /* Place the button at the bottom of the page */
+right: 1px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+background-color: transparent; /* Set a background color */
+cursor: pointer; /* Add a mouse pointer on hover */"
+ id="scrollUpBtn" title="Go to top"><img src="/images/Up-button.PNG" 
+    width="60" height="60"></button>
 <script src="button.js"></script>
 
 
