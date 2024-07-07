@@ -150,6 +150,8 @@ font-size: 3em;
   width: 100%;
   padding: auto;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 #ITLabs {
@@ -265,7 +267,6 @@ word-spacing: 0%;}
   padding: 2px;
 }
 .dev {
-  position: relative;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   color: rgb(255, 255, 255);
@@ -273,6 +274,8 @@ word-spacing: 0%;}
   border-radius: 5px;
   width: 100%;
   padding: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .txt2::before {
