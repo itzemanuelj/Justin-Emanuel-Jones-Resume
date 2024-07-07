@@ -138,10 +138,6 @@ font-size: 3em;
 
 .txt3 {
   font-family: "raleway", serif;
-  font-size: 1.25em;
-  width: 100%;
-  padding: auto;
-  font-size: 25px;
 }
 
 /* Projects */
@@ -172,41 +168,111 @@ font-size: 3em;
   color: #7290F0;
   border-radius: 5px;
   width: 100%;
-  padding: auto;
   font-size: 25px;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+#fge1 {
+  background: #2E2F2F;
+  color: #7290F0;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 25px;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+
+}
+
+.blcontainer {
+  display: flex;
+  justify-content: center; /* Centers the child horizontally */
+  align-items: center; /* Centers the child vertically */
 }
 
 #bl {
   background: #FE5200;
   border-radius: 5px;
-  width: 100%;
-  padding: auto;
+  width: 100%; /* Ensures the element takes full width of the container */
   font-size: 25px;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  text-align: center; /* Centers the text inside the element */
+  display: flex; /* Enables flexbox layout for the element */
+  justify-content: center; /* Centers content horizontally inside the element */
+  align-items: center; /* Centers content vertically inside the element */
+}
+
+#bl1 {
+  background: #FE5200;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 25px;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  /* border: 5px black solid; */
+}
+
+
+.ahcontainer {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Centers the child horizontally */
+  align-items: center; /* Centers the child vertically */
 }
 
 #ah {
   background: #0AA6CD;
   border-radius: 5px;
-  width: 100%;
-  padding: auto;
+  width: 100%; /* Ensures the element takes full width of the container */
   font-size: 25px;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  text-align: center; /* Centers the text inside the element */
+  display: flex; /* Enables flexbox layout for the element */
+  justify-content: center; /* Centers content horizontally inside the element */
+  align-items: center; /* Centers content vertically inside the element */
+}
+
+#ah1 {
+  background: #0AA6CD;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 25px;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+
+}
+
+.wcontainer {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Centers the child horizontally */
+  align-items: center; /* Centers the child vertically */
 }
 
 #w {
   background: #E62600;
   border-radius: 5px;
-  width: 100%;
-  padding: auto;
+  width: 100%; /* Ensures the element takes full width of the container */
   font-size: 25px;
-  display: flex;
-  justify-content: center;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  text-align: center; /* Centers the text inside the element */
+  display: flex; /* Enables flexbox layout for the element */
+  justify-content: center; /* Centers content horizontally inside the element */
+  align-items: center; /* Centers content vertically inside the element */
 }
+
+#w1 {
+  background: #E62600;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 25px;
+  padding: 5px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
 
 
 .img {
