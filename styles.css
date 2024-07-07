@@ -151,13 +151,19 @@ font-size: 3em;
   font-size: 25px;
   padding: 10px; /* Adjust padding as needed */
   box-sizing: border-box; /* Ensures padding is included in the width */
+  /* border: red 1px solid; */
 }
 
 #ITLabs {
-  font-size: 32px;
+  border-radius: 5px;
   width: 100%;
-  padding: auto;
-  /* border: 1px solid red; */
+  font-size: 25px;
+  padding: 6px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px black solid; */
 }
 
 
