@@ -175,7 +175,7 @@ font-size: 3em;
   /* border: 5px black solid; */
 }
 
-.container {
+.modal-container {
   display: flex;
   justify-content: center;
   gap: 20px; /* Space between images */
