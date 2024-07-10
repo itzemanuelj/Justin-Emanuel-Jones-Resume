@@ -90,13 +90,13 @@ height="45" width="45">Labs For IT Support
     <img class="more-down" src="/images/server.PNG" height="40" width="40"></img><img class="more-down" src="images/server 2.png" height="40" width="40"></img ></h3>
 
     <div class="container">
-        <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', '/images/Screenshot.png')">
+        <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
             <h4 class="minis">Header for Image 1</h4>
-            <img src="images/Screenshot.png" alt="Image 1">
+            <img src="svg/screenshot.svg" alt="Image 1">
         </div>
-        <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', '/images/Screenshot.png')">
+        <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
             <h4 class="minis">Header for Image 2</h4>
-            <img src="images/Screenshot.png" alt="Image 2">
+            <img src="svg/screenshot.svg" alt="Image 2">
         </div>
     </div>
 
@@ -120,13 +120,13 @@ height="45" width="45">Labs For IT Support
     <!--  -->
     
     <div class="container">
-        <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', '/images/Screenshot.png')">
+        <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
             <h4 class="minis">Header for Image 3</h4>
-            <img src="images/Screenshot.png" alt="Image 1">
+            <img src="svg/screenshot.svg" alt="Image 1">
         </div>
-        <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', '/images/Screenshot.png')">
+        <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
             <h4 class="minis">Header for Image 4</h4>
-            <img src="images/Screenshot.png" alt="Image 2">
+            <img src="svg/screenshot.svg" alt="Image 2">
         </div>
     </div>
 
@@ -164,6 +164,76 @@ height="45" width="45">Labs For IT Support
     <img class="more-down1" src="/images/three.png" height="40" width="40">
 </img><img class="more-down1" src="images/six.png" height="40" width="40"></img>
 <img class="more-down1" src="/images/five.png" height="40" width="40"></h3>
+
+<div class="container">
+    <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 1</h4>
+        <img src="svg/screenshot.svg" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 2</h4>
+        <img src="svg/screenshot.svg" alt="Image 2">
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<!--  -->
+
+<div class="container">
+    <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 3</h4>
+        <img src="svg/screenshot.svg" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 4</h4>
+        <img src="svg/screenshot.svg" alt="Image 2">
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+</script>
 <hr>
 
 
@@ -171,6 +241,75 @@ height="45" width="45">Labs For IT Support
 <h3 style="background-color: #2f5267; font-size: 25px;" id="projects" class="">Microsoft Azure
     <img class="more-down" src="/images/cloud.png" height="40" width="40"></img><img class="more-down" src="images/server.PNG" height="40" width="40"></img ></h3>
 
+    <div class="container">
+        <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+            <h4 class="minis">Header for Image 1</h4>
+            <img src="svg/screenshot.svg" alt="Image 1">
+        </div>
+        <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+            <h4 class="minis">Header for Image 2</h4>
+            <img src="svg/screenshot.svg" alt="Image 2">
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+
+    <!--  -->
+    
+    <div class="container">
+        <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+            <h4 class="minis">Header for Image 3</h4>
+            <img src="svg/screenshot.svg" alt="Image 1">
+        </div>
+        <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+            <h4 class="minis">Header for Image 4</h4>
+            <img src="svg/screenshot.svg" alt="Image 2">
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+
+    <script>
+        function openModal(modalId, headerText, imageUrl) {
+            document.getElementById(modalId + '-header').innerText = headerText;
+            document.getElementById(modalId + '-image').src = imageUrl;
+            document.getElementById(modalId).style.display = "block";
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+    </script>
 
 <hr>
 <div class="center-container">

@@ -91,28 +91,252 @@ height="45" width="45">Projects</h2>
 <ul>
 <li> Automated Linux server configuration, administration,and troubleshooting using Bash Scripting </li>
 </ul>
-<img src="#" alt="screenshot of ansile Automater" width=100 height="100">
+<div class="container">
+    <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 1</h4>
+        <img src="svg/screenshot.svg" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 2</h4>
+        <img src="svg/screenshot.svg" alt="Image 2">
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<!--  -->
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+</script>
 <hr>
     <h3 style="background-color: #2f5267; font-size: 20px;" id="projects">Securing a Linux System
     <img class="more-down" src="/images/Linux(1).PNG" height="40" width="40"></img><img class="more-down" src="images/lock.PNG" height="40" width="40"></img ></h3>
 <ul>
 <li>Securing data with encryption and steganography.Performed password auditing, file monitoring, firewalls, Netfilter, and iptables.</li>
 </ul>
-<img src="#" alt="screenshot of" width=100 height="100">
+<div class="container">
+    <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 1</h4>
+        <img src="svg/screenshot.svg" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 2</h4>
+        <img src="svg/screenshot.svg" alt="Image 2">
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<!--  -->
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+</script>
 <hr>
     <h3 style="background-color: #2f5267; font-size: 25px;" id="projects" class="">WordPress With Docker 
     <img class="more-down" src="/images/wp.PNG" height="40" width="40"></img><img class="more-down" src="images/box.PNG" height="40" width="40"></img ></h3>
 <ul>
 <li>Utlized Docker CLI to pull images from Docker Hub, monitor containers by understanding Docker image structure, created custom images with Dockerfile, and used volumes for persistent data.</li>
 </ul>
-<img src="#" alt="screenshot of "width=100 height="100">
+<div class="container">
+    <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 1</h4>
+        <img src="svg/screenshot.svg" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 2</h4>
+        <img src="svg/screenshot.svg" alt="Image 2">
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<!--  -->
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+</script>
 <hr>
     <h3 style="background-color: #2f5267; font-size: 25px;" id="projects" class="">Web & DNS Server 
     <img class="more-down" src="/images/web.PNG" height="40" width="40"></img><img class="more-down" src="images/server.PNG" height="40" width="40"></img ></h3>
 <ul>
 <li> Gained skills in acquiring a domain, hosting on a DNS server, installing and configuring Apache, PHP, and MySQL. Completed project by installing and securing a web application like WordPress. </li>
 </ul>  
-<img src="#" alt="screenshot of "width=100 height="100">
+<div class="container">
+    <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 1</h4>
+        <img src="svg/screenshot.svg" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+        <h4 class="minis">Header for Image 2</h4>
+        <img src="svg/screenshot.svg" alt="Image 2">
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<!--  -->
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+</div>
+
+<script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+</script>
 <hr>
 
 <div class="center-container">
