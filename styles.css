@@ -7,7 +7,9 @@ padding: 5px;
 height: auto;
 }
 
-
+#no-link {
+  text-decoration: none;
+}
 
 #small-text{
   font-size: 0.9em;
