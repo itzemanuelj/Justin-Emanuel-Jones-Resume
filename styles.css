@@ -846,7 +846,7 @@ img.more-down1 + img.more-down1 {
 /* Desktop styles */
 @media (min-width: 1025px) {
   body {
-  width: 75%;
+  width: 90%;
   /* border: 1px red solid; */
 }
 .navbar {
@@ -878,13 +878,13 @@ word-spacing: 10px;
 #center {
   display: flex;
   justify-content: center;
-  /* border: red solid 1px; */
+  border: red solid 1px;
 }
 
 /* Tablet styles */
 @media (min-width: 1025px) {
   body {
-    width: 75%;
+    width: 90%;
     /* border: 1px red solid; */
   }
   .navbar {
@@ -893,10 +893,12 @@ word-spacing: 10px;
   }
   h1 {
     display: flex;
-    justify-content: center;
-  }
+    justify-content: center;  }
+
   .txt1 {
     font-size: 100px;
+    /* border: red solid 1px; */
+
   }
   #itname {
     display: flex;
