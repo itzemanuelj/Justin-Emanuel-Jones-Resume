@@ -174,17 +174,73 @@
     <img class="down" src="/images/MagicEraser_240918_235551.PNG" height="45" width="45">IT Homelab Blog</h2>
     </a>
     <ul>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt?</li>
-            <br>
+        <li>Install Windows Server (2022) in a virtual machine (VM) using software like VirtualBox.
+        </li>       
+        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aspernatur.</li>
+        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aspernatur.</li>
+        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aspernatur.</li>
 
     </ul>
-    <div class="svg-float">
-        <img src="/svg/main-homelab-migsvg.svg" height="200px" width="400px" class="floating-image">
-</div>
-</div>
-<div>
+    <div class="modal-container">
+        <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+            <img src="svg/screenshot.svg" alt="Image 1">
+        </div>
+        <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+            <img src="svg/screenshot.svg" alt="Image 2">
+        </div>
+    </div>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+    
+    <!--  -->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+    
+    <script>
+        function openModal(modalId, headerText, imageUrl) {
+            document.getElementById(modalId + '-header').innerText = headerText;
+            document.getElementById(modalId + '-image').src = imageUrl;
+            document.getElementById(modalId).style.display = "block";
+        }
+    
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+    </script>
 <ul>
     <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, ex?</li>
+    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aspernatur.</li>
+    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aspernatur.</li>
+
 </ul>
 </div>
 
