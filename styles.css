@@ -132,7 +132,7 @@ margin-left: -0.7em;
 
 .txt1 {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 3em;
+font-size: 1.75em;
 }
 
 .mini {
@@ -858,7 +858,7 @@ h1 {
   justify-content: center;
 }
 .txt1 {
-  font-size: 100px;
+  font-size: 50px;
 }
 #itname {
   display: flex;
@@ -896,7 +896,7 @@ word-spacing: 10px;
     justify-content: center;  }
 
   .txt1 {
-    font-size: 100px;
+    font-size: 90px;
     /* border: red solid 1px; */
 
   }
