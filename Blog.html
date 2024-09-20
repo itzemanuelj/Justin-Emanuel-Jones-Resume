@@ -161,10 +161,71 @@ margin-right: auto;
     <a href="https://medium.com/@itzemanuelj/how-to-create-a-windows-11-bootable-usb-drive-a-step-by-step-guide-a0f9e364ad0f" target="_blank">How to Create a Windows 11 Bootable USB Drive </a>
 </ul>
 
-<a href="https://medium.com/@itzemanuelj/how-to-create-a-windows-11-bootable-usb-drive-a-step-by-step-guide-a0f9e364ad0f" target="_blank">
-    <h3 style="background-color: #2f5267; font-size: 25px;" id="projects">How to Install Windows (7,8,10,11) using Vitrualbox  
-        <img class="more-down" src="/images/Vbox.png" height="40" width="40" alt="Icon">
-    </h3>
+
+
+    <a href="https://medium.com/@itzemanuelj/how-to-create-a-windows-11-bootable-usb-drive-a-step-by-step-guide-a0f9e364ad0f" target="_blank">
+        <h3 style="background-color: #2f5267; font-size: 25px;" id="projects">How to Install Windows (7,8,10,11) using Vitrualbox
+            <img class="more-down" src="/images/Vbox.png" height="40" width="40" alt="Icon">
+        </h3>
+    </a>
+    
+    <div class="modal-container">
+        <div class="image-item" onclick="openModal('modal1', 'VirtualBox Install', 'images/v box 10.png')">
+            <img src="images/v box 10.png" alt="Image 1">
+        </div>
+        <div class="image-item" onclick="openModal('modal2', 'VirtualBox Instal', 'images/v box 10.png')">
+            <img src="images/v box 10.png" alt="Image 2">
+        </div>
+    </div>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+    
+    <script>
+        function openModal(modalId, headerText, imageUrl) {
+            document.getElementById(modalId + '-header').innerText = headerText;
+            document.getElementById(modalId + '-image').src = imageUrl;
+            document.getElementById(modalId).style.display = "block";
+        }
+    
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+    </script>
+    <ul>
+        <a href="https://medium.com/@itzemanuelj/how-to-create-a-windows-11-bootable-usb-drive-a-step-by-step-guide-a0f9e364ad0f" target="_blank">How to Create a Windows 11 Bootable USB Drive </a>
+    </ul>
 
 
 
