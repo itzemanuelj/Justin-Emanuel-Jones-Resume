@@ -370,7 +370,7 @@ align-items: end;
 
 .red {
   font-size: 1em;
-color: #718aa5;
+color: #76ABAE;
 word-spacing: 0%;}
 
 .white {
@@ -426,7 +426,7 @@ word-spacing: 0%;}
   font-optical-sizing: auto;
   font-size: 2.10em;
   color: rgb(255, 255, 255);
-  background:#76ABAE;;
+  background:#76ABAE;
   border-radius: 5px;
   width: 100%;
   padding: 2px;
