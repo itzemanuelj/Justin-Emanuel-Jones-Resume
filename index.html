@@ -150,18 +150,27 @@
         <li>Troubleshooting</li>
             <img src="svg/undraw_design_components_9vy6.svg" height="200px" width="200px" style="float: right;">
         <li>Active Directory</li>
-        <li>Windows</li>
-        <li>Azure</li>
-        <li>macOS</li>
-        <li>Chrome OS</li>
         <li style="white-space: nowrap;">Remote Support</li>
         <li style="white-space: nowrap;">Microsoft 365</li>
         <li style="white-space: nowrap;">Ticket Management</li>
         <li style="white-space: nowrap;">Software Installation</li>
-        <li style="white-space: nowrap;">Hardware Installation</li>
+        <li style="white-space: nowrap;">add</li>
+        <li style="white-space: nowrap;">add</li>
+        <li style="white-space: nowrap;">add</li>
+        <li style="white-space: nowrap;">add</li>
             <br>
-
     </ul>
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Badge">
+    <img src="https://img.shields.io/badge/mac%20os-363636?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macOS Badge">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Badge"> 
+    <img src="https://img.shields.io/badge/chrome%20os-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white" alt="Chrome OS Badge">
+    <img src="https://img.shields.io/badge/Apple-363636.svg?style=for-the-badge&logo=apple&logoColor=white" alt="Apple Badge">
+    <img src="https://img.shields.io/badge/Samsung-%231428A0.svg?style=for-the-badge&logo=samsung&logoColor=white" alt="Samsung Badge">
+    <img src="https://img.shields.io/badge/lenovo-E2231A?style=for-the-badge&logo=lenovo&logoColor=white" alt="Lenovo Badge">
+    <img src="https://img.shields.io/badge/asus-000080.svg?style=for-the-badge&logo=asus&logoColor=white" alt="ASUS Badge">
+    <img src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Badge">
+    <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Azure Badge">
+    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Badge">
 </div>
 
 <div class="section">
@@ -169,13 +178,7 @@
     <h2 style="background-color:#2f5267;" class="txt2">
     <img class="down" src="/images/MagicEraser_240918_235551.PNG" height="45" width="45">IT Homelab Blog</h2>
     </a>
-    <ul>
-        <li>Developed and authored a comprehensive step-by-step guide for creating a Windows 11 bootable USB drive using official Microsoft tools (e.g., Media Creation Tool)</li>
-        <li>Install Windows Server (2022) in a virtual machine (VM) using software like VirtualBox.
-        </li>     
-          
-       
-    </ul>
+
     <div class="modal-container">
         <div class="image-item" onclick="openModal('modal1', 'Windows 11 Bootable USB Drive Install', 'images/Windows 11 Installation Media.png')">
             <img src="images/Windows 11 Installation Media.png" alt="Windows Instal image">
@@ -233,9 +236,76 @@
             document.getElementById(modalId).style.display = "none";
         }
     </script>
-<ul>
-    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, ex?</li>
-</ul>
+    <ul>
+        <a href="https://medium.com/@itzemanuelj/how-to-create-a-windows-11-bootable-usb-drive-a-step-by-step-guide-a0f9e364ad0f" target="_blank">How to Create a Windows 11 Bootable USB Drive </a>
+
+    </ul>
+    <!-- second images-->
+    <div class="modal-container">
+        <div class="image-item" onclick="openModal('modal1', 'VirtualBox Install', 'images/v box 10.png')">
+            <img src="images/v box 10.png" alt="Image 1">
+        </div>
+        <div class="image-item" onclick="openModal('modal2', 'VirtualBox Instal', 'images/v box 10.png')">
+            <img src="images/v box 10.png" alt="Image 2">
+        </div>
+    </div>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4 id="modal1-header"></h4>
+            <img id="modal1-image" src="" alt="Modal Image 1">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4 id="modal2-header"></h4>
+            <img id="modal2-image" src="" alt="Modal Image 2">
+        </div>
+    </div>
+    
+    <script>
+        function openModal(modalId, headerText, imageUrl) {
+            document.getElementById(modalId + '-header').innerText = headerText;
+            document.getElementById(modalId + '-image').src = imageUrl;
+            document.getElementById(modalId).style.display = "block";
+        }
+    
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+    </script>
+    <ul>
+        <a href="https://medium.com/@itzemanuelj/how-to-create-a-windows-11-bootable-usb-drive-a-step-by-step-guide-a0f9e364ad0f" target="_blank">How to Create a Windows 11 Bootable USB Drive </a>
+</div>
+<div>
+    <ul>
+        <li>Developed and authored a comprehensive step-by-step guide for creating a Windows 11 bootable USB drive using official Microsoft tools (e.g., Media Creation Tool)</li>
+        <li>Install Windows Server (2022) in a virtual machine (VM) using software like VirtualBox.
+        </li>     
+          
+       
+    </ul>
 </div>
 
 <div class="section">
