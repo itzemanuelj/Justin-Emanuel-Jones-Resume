@@ -139,6 +139,7 @@ font-size: 1.75em;
 }
 
 .txt3 {
+  color: #CBCBCB ;
   font-family: "raleway", serif;
 }
 
@@ -391,7 +392,7 @@ word-spacing: 0%;}
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-size: 2.10em;
-  color: rgb(255, 255, 255);
+  color: #CBCBCB;
   background: #28a173;
   border-radius: 5px;
   width: 100%;
@@ -409,8 +410,8 @@ word-spacing: 0%;}
   border-radius: 3px;
   padding: 2px; /* Adjust if needed to match the border width */
   /* background:linear-gradient(90deg,rgba(0,255,200,1)0%,rgba(0,181,255,1)50%,rgba(255,0,176,1)100%);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box,  */
-  /* linear-gradient(#fff 0 0); */
+  -webkit-mask: linear-gradient(#CBCBCB 0 0) content-box,  */
+  /* linear-gradient(#CBCBCB 0 0); */
   -webkit-mask-composite: destination-out;
           mask-composite: exclude;
 }
@@ -469,7 +470,7 @@ word-spacing: 0%;}
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-size: 2.10em;
-  color: rgb(255, 255, 255);
+  color: CBCBCB;
   background: red;
   border-radius: 5px;
   width:100%;
@@ -619,7 +620,7 @@ hr {
   border-radius: 5px;
   padding: 5px; /* Adjust the padding to control the border width */
   /* background: linear-gradient(90deg, rgba(255, 0, 176, 1) 0%, rgba(0, 181, 255, 1) 50%, rgba(0, 255, 200, 1) 100%);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); */
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(##CBCBCB 0 0); */
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
   z-index: -1;
@@ -820,6 +821,7 @@ img.more-down1 + img.more-down1 {
       /* border: 1px red solid; */
   }
   #itname {
+    color: #CBCBCB;
     display: flex;
     justify-content: center;
     }
