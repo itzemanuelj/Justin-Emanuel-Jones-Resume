@@ -1,7 +1,7 @@
 html, body {
 font-family: "Raleway", sans-serif;
-background-color: #373535;
-color: white;
+background-color: #121212;
+color: #CBCBCB;
 margin: auto;
 padding: 5px;
 height: auto;
@@ -34,7 +34,7 @@ h1 {
   text-shadow: none !important;
   display: flex;
   justify-content: center;
-  background-color: #2E2F2F;
+  background-color: #363636;
   border-radius: 5px;
   margin: auto;
 }
@@ -71,7 +71,7 @@ h1 {
 }
 
 h2,h3 {
-  color: #FFF;
+  color: #CBCBCB;
 }
 
 .contact {
@@ -98,7 +98,7 @@ a:hover {
   color: #6FE2FC;
   background-color: transparent;
   text-decoration: underline;
-  text-decoration-color: #FFF ;
+  text-decoration-color: #CBCBCB ;
 }
 
 a:active {
@@ -111,7 +111,7 @@ a:active {
 footer {
   border-radius: 5px;
   padding: 11px; 
-  background: #282B35;
+  background: #363636;
 }
 
 
@@ -370,11 +370,11 @@ align-items: end;
 
 .red {
   font-size: 1em;
-color: #76ABAE;
+color: #A5C7E4;
 word-spacing: 0%;}
 
 .white {
-  color: rgb(255, 255, 255);
+  color: #CBCBCB;
 }
 
 .email {
@@ -425,7 +425,7 @@ word-spacing: 0%;}
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-size: 2.10em;
-  color: rgb(255, 255, 255);
+  color: #CBCBCB;
   background:#76ABAE;
   border-radius: 5px;
   width: 100%;
@@ -434,7 +434,7 @@ word-spacing: 0%;}
 .dev {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  color: rgb(255, 255, 255);
+  color: #CBCBCB;
   background:#718aa5;
   border-radius: 5px;
   width: 100%;
@@ -596,9 +596,10 @@ hr {
 }
 
 .navbar {
+  color: #CBCBCB;
   font-family: "Raleway", sans-serif;
   overflow: hidden;
-  background-color: #2E2F2F;
+  background-color: #363636;
   font-family: "Raleway", sans-serif;
   font-size: large !important;
   border-radius: 5px;
@@ -628,7 +629,7 @@ hr {
   font-family: "Raleway", sans-serif;
   float: left;
   display: block;
-  color: #FFF;
+  color: #CBCBCB;
   text-align: center;
   padding: 15px 15px;
   text-decoration: none;
@@ -637,8 +638,8 @@ hr {
 }
 
 .navbar a:hover {
-  background-color: #000000;
-  color: #FFF;
+  background-color: #121212;
+  color: #CBCBCB;
   border-radius: 5px;
 }
 
@@ -687,7 +688,7 @@ list-style: none;}
   font-size: large;
   color: #7290F0;
   padding: 10px;
-  background-color: #222020c9;
+  background-color: #363636;
   border-radius: 5px;
 }
 
