@@ -25,7 +25,11 @@ S
 }
 
 h1 {
-  font-size: 3em;  
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  text-align: center;
+  /* border: red 1px solid; */
 }
 
 .small-h1{
@@ -136,6 +140,10 @@ font-size: 1.75em;
 .mini {
   font-size: 1.2em;
   font-weight: 450;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  text-align: center;
 }
 
 .txt3 {
@@ -822,11 +830,16 @@ img.more-down1 + img.more-down1 {
   #itname {
     color: #CBCBCB;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    text-align: center;
     }
+
     .contacts {
       display: flex;
-      justify-content: center;
+      justify-content: center; /* Centers horizontally */
+      align-items: center;     /* Centers vertically */
+      text-align: center;
       word-spacing: 10px;
       }
     .footer-items {
@@ -865,9 +878,11 @@ h1 {
   font-size: 30px;
   }
 .contacts {
-display: flex;
-justify-content: center;
-word-spacing: 20px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  text-align: center;
+  word-spacing: 20px;
 }
 .footer-items {
   display: flex;
@@ -906,8 +921,10 @@ word-spacing: 10px;
   }
   .contacts {
     display: flex;
-    justify-content: center;
-    word-spacing: 20px;
+    display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  text-align: center;
   }
   .footer-items {
     display: flex;
