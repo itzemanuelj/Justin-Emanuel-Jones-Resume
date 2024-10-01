@@ -840,7 +840,7 @@ img.more-down1 + img.more-down1 {
       justify-content: center; /* Centers horizontally */
       align-items: center;     /* Centers vertically */
       text-align: center;
-      word-spacing: 10px;
+      word-spacing: 10px;      
       }
     .footer-items {
         display: flex;
@@ -936,4 +936,22 @@ word-spacing: 10px;
     justify-content: center;
     /* border: red solid 1px; */
   }
+}}
+
+@media (min-width: 800px) {
+  .contacts {
+  /* border: 1px red solid; */
+  display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically */
+    gap: 15px;               /* Adds spacing between icons */
+}}
+
+@media (min-width: 700px) {
+  .contacts {
+  /* border: 1px red solid; */
+  display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically */
+    gap: 15px;               /* Adds spacing between icons */
 }}
