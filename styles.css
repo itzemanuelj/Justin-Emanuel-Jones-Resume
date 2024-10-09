@@ -47,6 +47,46 @@ h1 {
   /* border: 1px red solid; */
  }
 
+ /* Center container */
+.center-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  padding: 2px;
+}
+
+/* Link as a button styling */
+.centered-link {
+  /* border: red 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Align items in the center */
+  background-color: #363636; /* Background color for the button */
+  width: fit-content; /* Button adjusts to content width */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove default link underline */
+  padding: 0.5px; /* Padding for the button */
+  transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transitions */
+}
+
+/* Button hover effect */
+.centered-link:hover {
+  background-color: #2D2D2D; 
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Button active effect */
+.centered-link:active {
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+
+/* Heading styling */
+.centered-link h1 {
+  margin: 0; /* Remove default margin */
+  color: #CBCBCB; /* Heading color */
+}
+
+
 
  .center-container {
   /* border: 1px red solid; */
@@ -56,23 +96,7 @@ h1 {
   padding: 2px;
 }
 
-.centered-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;      /* Align items in the center */
-  background-color: #2E2F2F;
-  width: fit-content;
-  border-radius: 5px;
-  text-decoration: none;    /* Remove default link underline */
-}
 
-.centered-link h1 {
-  margin: 0;               /* Remove default margin */
-}
-
-.centered-link img {
-  margin-right: 8px;       /* Adjust margin as needed */
-}
 
 h2,h3 {
   color: #CBCBCB;
