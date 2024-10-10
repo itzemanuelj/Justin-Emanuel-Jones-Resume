@@ -86,6 +86,20 @@ h1 {
   color: #CBCBCB; /* Heading color */
 }
 
+#center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.small-h1 {
+  display: inline-flex;
+  align-items: center;
+}
+
+
 
 
  .center-container {
