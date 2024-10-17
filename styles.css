@@ -236,7 +236,7 @@ font-size: 1.75em;
   cursor: pointer;
 }
 .image-item img {
-  max-width: 90%; /* Ensure responsiveness */
+  max-width: 100%; /* Ensure responsiveness */
   height: auto;
 }
 /* Modal styles */
