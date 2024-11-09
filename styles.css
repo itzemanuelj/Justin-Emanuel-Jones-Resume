@@ -3,8 +3,10 @@ font-family: "Raleway", sans-serif;
 background-color: #121212;
 color: #CBCBCB;
 margin: auto;
-padding: 5px;
+padding: auto;
 height: auto;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 #no-link {
@@ -152,8 +154,8 @@ a:active {
 
 footer {
   border-radius: 5px;
-  padding: 11px; 
   background: #363636;
+  padding: 5px;
 }
 
 
