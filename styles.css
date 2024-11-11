@@ -203,14 +203,9 @@ font-size: 1.75em;
 
 #ITLabs {
   border-radius: 5px;
-  width: 100%;
-  font-size: 25px;
-  padding: 6px; /* Adjust padding as needed */
-  box-sizing: border-box; /* Ensures padding is included in the width */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 5px black solid; */
 }
 
 .minis {
@@ -481,12 +476,9 @@ word-spacing: 0%;}
 }
 .dev {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   color: #CBCBCB;
   background:#718aa5;
   border-radius: 5px;
-  width: 100%;
-  padding: auto;
   display: flex;
   justify-content: center;
 }
