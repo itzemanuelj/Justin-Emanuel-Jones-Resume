@@ -641,7 +641,7 @@ hr {
   overflow: hidden;
   background-color: #363636;
   font-family: "Raleway", sans-serif;
-  font-size: large !important;
+  font-size: 20px !important;
   border-radius: 5px;
   position: relative;
   z-index: 1;
