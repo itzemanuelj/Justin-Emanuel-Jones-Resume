@@ -677,6 +677,11 @@ hr {
   border-radius: 5px;
 }
 
+.navbar .icon {
+  display: none;
+  
+}
+
 .navbar a:hover {
   background-color: #2D2D2D;
   color: #CBCBCB;
