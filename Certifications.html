@@ -33,40 +33,40 @@
             <a href="Homelabs.html"><img class="nav-img" src="images/labs1.png" height="25" width="25">IT HomeLabs</a>
             <a href="Projects.html"><img class="nav-img" src="/images/nav/projects.png" height="25" width="25">IT Projects</a>
             <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
-            <img id="nav-icon" src="/images/nav/Hamburg.png" alt="nav button" height="25" width="25">
+            <img id="nav-icon" src="/images/nav/Hamburg.png" alt="nav button" height="55" width="55">
             </a>
         </div>
     </header>
 
-    <script>
-        function toggleNavbar() {
-            var x = document.getElementById("myNavbar");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-
-            // Toggle the icon image
-            var icon = document.getElementById('nav-icon');
-            if (icon.src.includes('Hamburg.png')) {
-                icon.src = '/images/nav/Hamburg2.png';
-            } else {
-                icon.src = '/images/nav/Hamburg.png';
-            }
+<script>
+    function toggleNavbar() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
         }
 
+        // Toggle the icon image
         var icon = document.getElementById('nav-icon');
+        if (icon.src.includes('Hamburg.png')) {
+            icon.src = '/images/nav/Hamburg2.png';
+        } else {
+            icon.src = '/images/nav/Hamburg.png';
+        }
+    }
+
+    var icon = document.getElementById('nav-icon');
         if (icon.src.includes('Hamburg.png')) {
             icon.src = '/images/nav/Hamburg.png';
             icon.style.width = '30px'; // Set new width
             icon.style.height = '30px'; // Set new height
         } else {
             icon.src = '/images/nav/Hamburg2.png';
-            icon.style.width = '30px'; // Set back to original width
+            icon.style.width = '40px'; // Set back to original width
             icon.style.height = '30px'; // Set back to original height
         }
-    </script>
+</script>
 
     <style>
         .mini {
@@ -108,7 +108,7 @@
         </ul>
         <br>
 
-        <h3 style="color: grey;" class="cc full-width"><img class="cc-down" src="images/ms-logo.PNG" height="22px" width="22px"> Microsoft</h3>
+        <h3 style="font-size: 20px; color: grey;" class="cc full-width"><img style="margin-bottom: -3.5px;" src="images/ms-logo.PNG" height="22px" width="22px"> Microsoft</h3>
         <ul>
             <p><a href="#" target="_blank">
                 <li class="cert-list"> Coming Soon</li>
@@ -156,7 +156,7 @@
         <br>
 
 
-        <h3 class="cc full-width"><img class="cc-down" src="images/cc.PNG" height="22px" width="22px"> CourseCareers</h3>
+        <h3 style="font-size: 20px;" class="cc full-width"><img style="margin-bottom: -5px;" src="images/cc.PNG" height="22px" width="22px"> CourseCareers</h3>
         <ul>
             <p><a href="#" target="_blank">
                 <li class="cert-list">CourseCareers Pratical Help Desk Professional (PHDP)</li>
