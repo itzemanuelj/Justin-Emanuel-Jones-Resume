@@ -196,7 +196,7 @@ font-size: 1.75em;
   border-radius: 5px;
   width: 100%;
   font-size: 25px;
-  padding: 10px; /* Adjust padding as needed */
+  padding: 5px; /* Adjust padding as needed */
   box-sizing: border-box; /* Ensures padding is included in the width */
   /* border: red 1px solid; */
 }
@@ -719,6 +719,10 @@ list-style: none;}
 
 .nav-img {
   margin-bottom: -5px;
+  /* border: 1px red solid ; */
+  height: 30px;
+  width: 30px;
+  margin-bottom: -6.5px;
   
 }
 
@@ -732,7 +736,7 @@ list-style: none;}
 }
 
 .forage-img {
-margin-bottom: -3px;
+margin-bottom: -5px;
 }
 
 .CompTIA {

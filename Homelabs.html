@@ -59,12 +59,12 @@
     var icon = document.getElementById('nav-icon');
         if (icon.src.includes('Hamburg.png')) {
             icon.src = '/images/nav/Hamburg.png';
-            icon.style.width = '25px'; // Set new width
-            icon.style.height = '25px'; // Set new height
+            icon.style.width = '30px'; // Set new width
+            icon.style.height = '30px'; // Set new height
         } else {
             icon.src = '/images/nav/Hamburg2.png';
-            icon.style.width = '25px'; // Set back to original width
-            icon.style.height = '25px'; // Set back to original height
+            icon.style.width = '30px'; // Set back to original width
+            icon.style.height = '30px'; // Set back to original height
         }
 </script>
 
@@ -76,7 +76,7 @@
 </head>
 <div class="section">
 
-<h2 style="background-color: #2f5267; font-size: 30px;" class="grey"><img class="down" src="/images/labs1.png" height="45" width="45">IT HomeLabs</h2>
+<h2 style="background-color: #2f5267; font-size: 30px;" class="grey"><img style="margin-bottom: -12px;" src="/images/labs1.png" height="45" width="45">IT HomeLabs</h2>
 
 <img style="  display: block;
 margin-left: auto;
@@ -91,10 +91,13 @@ margin-right: auto;
             <img src="images/enlarge.PNG" height="35" width="35"> 
         </h1>
     </a>
-</div>
+</div> 
 
-<h3 style="background-color: #2f5267; font-size: 20px;" id="projects">Creating a Windows Bootable Drive <img style="margin-bottom: -13px;" src="images/FlashDrive.png" alt="" width="40" height="40"></h3> 
-</h3>
+<h3 style="padding-bottom:10px; background-color: #2f5267; font-size: 18px; text-align: left; " id="projects">
+    Creating a Windows Bootable Drive
+    <img style="margin-bottom: -12px;" src="images/FlashDrive.png" alt="" width="35" height="35">
+  </h3>
+
 <ul>
 <li> lorem </li>
 </ul>
@@ -154,8 +157,7 @@ function closeModal(modalId) {
 }
 </script>
 
-<!-- enmodal closemodal -->
-<h3 style="background-color: #2f5267; font-size: 18px;" id="projects">Creating a Vitural Machine Using Azure <img style="margin-bottom: -10px;" src="images/Vbox.png" alt="" width="30" height="30"> 
+<h3 style=" padding-bottom:8px;margin-top: -5px; background-color: #2f5267; font-size: 18px;" id="projects">Creating a Vitural Machine Using Azure <img style="margin-bottom: -10px;" src="images/Vbox.png" alt="" width="30" height="30"> 
     </h3>
 <ul>
 <li> lorem</li>
@@ -217,7 +219,209 @@ function closeModal(modalId) {
 </script>
 
 <!-- end of modal -->
-<h3 style="background-color: #2f5267; font-size: 18px;" id="projects">osTicket: Prerequisites and Installation <img style="margin-bottom: -5px;" src="images/osTicket.png" alt="" width="30" height="30">  
+
+    <h3 style="padding-bottom:6px; background-color: #2f5267; font-size: 18px; text-align: left; " id="projects">
+      osTicket: Prerequisites and Installation 
+      <img style="margin-bottom: -5px;" src="images/osTicket.png" alt="" width="25" height="25">
+    </h3>
+<ul>
+<li> lorem</li>
+</ul>
+<div class="modal-container">
+<div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+    <img src="svg/screenshot.svg" alt="Image 1">
+</div>
+<div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+    <img src="svg/screenshot.svg" alt="Image 2">
+</div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h4 id="modal1-header"></h4>
+    <img id="modal1-image" src="" alt="Modal Image 1">
+</div>
+</div>
+
+<div id="modal2" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h4 id="modal2-header"></h4>
+    <img id="modal2-image" src="" alt="Modal Image 2">
+</div>
+</div>
+
+<!--  -->
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h4 id="modal1-header"></h4>
+    <img id="modal1-image" src="" alt="Modal Image 1">
+</div>
+</div>
+
+<div id="modal2" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h4 id="modal2-header"></h4>
+    <img id="modal2-image" src="" alt="Modal Image 2">
+</div>
+</div>
+
+<script>
+function openModal(modalId, headerText, imageUrl) {
+    document.getElementById(modalId + '-header').innerText = headerText;
+    document.getElementById(modalId + '-image').src = imageUrl;
+    document.getElementById(modalId).style.display = "block";
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+}
+</script>
+
+<!-- end of modal -->
+ <!-- end of modal -->
+ 
+    <h3 style="padding-bottom:9px; background-color: #2f5267; font-size: 18px; text-align: left;" id="projects">
+        osTicket: Post-Installation Configuration
+        <img style="margin-bottom: -5px; margin-left: 5px;" src="images/osTicket.png" alt="" width="25" height="25">
+    </h3>
+
+
+<ul>
+<li> lorem</li>
+</ul>
+<div class="modal-container">
+<div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+    <img src="svg/screenshot.svg" alt="Image 1">
+</div>
+<div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+    <img src="svg/screenshot.svg" alt="Image 2">
+</div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h4 id="modal1-header"></h4>
+    <img id="modal1-image" src="" alt="Modal Image 1">
+</div>
+</div>
+
+<div id="modal2" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h4 id="modal2-header"></h4>
+    <img id="modal2-image" src="" alt="Modal Image 2">
+</div>
+</div>
+
+<!--  -->
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h4 id="modal1-header"></h4>
+    <img id="modal1-image" src="" alt="Modal Image 1">
+</div>
+</div>
+
+<div id="modal2" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h4 id="modal2-header"></h4>
+    <img id="modal2-image" src="" alt="Modal Image 2">
+</div>
+</div>
+
+<script>
+function openModal(modalId, headerText, imageUrl) {
+    document.getElementById(modalId + '-header').innerText = headerText;
+    document.getElementById(modalId + '-image').src = imageUrl;
+    document.getElementById(modalId).style.display = "block";
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+}
+</script>
+
+<!-- end of modal -->
+ <!-- end of modal -->
+ <div style="display: flex; justify-content: center;">
+    <h3 style="padding-bottom:3px; background-color: #2f5267; font-size: 20px; text-align: left; padding: 5px;" id="projects">
+        osTicket: Ticket Lifecycle Examples
+        <img style="margin-bottom: -5px; margin-left: 5px;" src="images/osTicket.png" alt="" width="25" height="25">
+    </h3>
+</div>
+
+<ul>
+<li> lorem</li>
+</ul>
+<div class="modal-container">
+<div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+    <img src="svg/screenshot.svg" alt="Image 1">
+</div>
+<div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+    <img src="svg/screenshot.svg" alt="Image 2">
+</div>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h4 id="modal1-header"></h4>
+    <img id="modal1-image" src="" alt="Modal Image 1">
+</div>
+</div>
+
+<div id="modal2" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h4 id="modal2-header"></h4>
+    <img id="modal2-image" src="" alt="Modal Image 2">
+</div>
+</div>
+
+<!--  -->
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h4 id="modal1-header"></h4>
+    <img id="modal1-image" src="" alt="Modal Image 1">
+</div>
+</div>
+
+<div id="modal2" class="modal">
+<div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h4 id="modal2-header"></h4>
+    <img id="modal2-image" src="" alt="Modal Image 2">
+</div>
+</div>
+
+<script>
+function openModal(modalId, headerText, imageUrl) {
+    document.getElementById(modalId + '-header').innerText = headerText;
+    document.getElementById(modalId + '-image').src = imageUrl;
+    document.getElementById(modalId).style.display = "block";
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+}
+</script>
+
+<!-- end of modal -->
+ <!-- end of modal -->
+<h3 style=" padding-bottom:6px;background-color: #2f5267; font-size: 20px;" id="projects">Configuring Active Directory within Azure VMs <img style="margin-bottom: -5px;" src="images/AD.png" alt="" width="25" height="25">  
 </h3>
 <ul>
 <li> lorem</li>
@@ -280,196 +484,7 @@ function closeModal(modalId) {
 
 <!-- end of modal -->
  <!-- end of modal -->
-<h3 style="background-color: #2f5267; font-size: 18px;" id="projects">osTicket: Post-Installation Configuration <img style="margin-bottom: -5px;" src="images/osTicket.png" alt="" width="30" height="30"> 
-</h3>
-<ul>
-<li> lorem</li>
-</ul>
-<div class="modal-container">
-<div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
-    <img src="svg/screenshot.svg" alt="Image 1">
-</div>
-<div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
-    <img src="svg/screenshot.svg" alt="Image 2">
-</div>
-</div>
-
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h4 id="modal1-header"></h4>
-    <img id="modal1-image" src="" alt="Modal Image 1">
-</div>
-</div>
-
-<div id="modal2" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h4 id="modal2-header"></h4>
-    <img id="modal2-image" src="" alt="Modal Image 2">
-</div>
-</div>
-
-<!--  -->
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h4 id="modal1-header"></h4>
-    <img id="modal1-image" src="" alt="Modal Image 1">
-</div>
-</div>
-
-<div id="modal2" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h4 id="modal2-header"></h4>
-    <img id="modal2-image" src="" alt="Modal Image 2">
-</div>
-</div>
-
-<script>
-function openModal(modalId, headerText, imageUrl) {
-    document.getElementById(modalId + '-header').innerText = headerText;
-    document.getElementById(modalId + '-image').src = imageUrl;
-    document.getElementById(modalId).style.display = "block";
-}
-
-function closeModal(modalId) {
-    document.getElementById(modalId).style.display = "none";
-}
-</script>
-
-<!-- end of modal -->
- <!-- end of modal -->
-<h3 style="background-color: #2f5267; font-size: 20px;" id="projects">osTicket: Ticket Lifecycle Examples <img style="margin-bottom: -5px;" src="images/osTicket.png" alt="" width="30" height="30">  
-</h3>
-<ul>
-<li> lorem</li>
-</ul>
-<div class="modal-container">
-<div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
-    <img src="svg/screenshot.svg" alt="Image 1">
-</div>
-<div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
-    <img src="svg/screenshot.svg" alt="Image 2">
-</div>
-</div>
-
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h4 id="modal1-header"></h4>
-    <img id="modal1-image" src="" alt="Modal Image 1">
-</div>
-</div>
-
-<div id="modal2" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h4 id="modal2-header"></h4>
-    <img id="modal2-image" src="" alt="Modal Image 2">
-</div>
-</div>
-
-<!--  -->
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h4 id="modal1-header"></h4>
-    <img id="modal1-image" src="" alt="Modal Image 1">
-</div>
-</div>
-
-<div id="modal2" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h4 id="modal2-header"></h4>
-    <img id="modal2-image" src="" alt="Modal Image 2">
-</div>
-</div>
-
-<script>
-function openModal(modalId, headerText, imageUrl) {
-    document.getElementById(modalId + '-header').innerText = headerText;
-    document.getElementById(modalId + '-image').src = imageUrl;
-    document.getElementById(modalId).style.display = "block";
-}
-
-function closeModal(modalId) {
-    document.getElementById(modalId).style.display = "none";
-}
-</script>
-
-<!-- end of modal -->
- <!-- end of modal -->
-<h3 style="background-color: #2f5267; font-size: 20px;" id="projects">Configuring Active Directory within Azure VMs <img style="margin-bottom: -5px;" src="images/AD.png" alt="" width="25" height="25">  
-</h3>
-<ul>
-<li> lorem</li>
-</ul>
-<div class="modal-container">
-<div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
-    <img src="svg/screenshot.svg" alt="Image 1">
-</div>
-<div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
-    <img src="svg/screenshot.svg" alt="Image 2">
-</div>
-</div>
-
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h4 id="modal1-header"></h4>
-    <img id="modal1-image" src="" alt="Modal Image 1">
-</div>
-</div>
-
-<div id="modal2" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h4 id="modal2-header"></h4>
-    <img id="modal2-image" src="" alt="Modal Image 2">
-</div>
-</div>
-
-<!--  -->
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h4 id="modal1-header"></h4>
-    <img id="modal1-image" src="" alt="Modal Image 1">
-</div>
-</div>
-
-<div id="modal2" class="modal">
-<div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h4 id="modal2-header"></h4>
-    <img id="modal2-image" src="" alt="Modal Image 2">
-</div>
-</div>
-
-<script>
-function openModal(modalId, headerText, imageUrl) {
-    document.getElementById(modalId + '-header').innerText = headerText;
-    document.getElementById(modalId + '-image').src = imageUrl;
-    document.getElementById(modalId).style.display = "block";
-}
-
-function closeModal(modalId) {
-    document.getElementById(modalId).style.display = "none";
-}
-</script>
-
-<!-- end of modal -->
- <!-- end of modal -->
-<h3 style="background-color: #2f5267; font-size: 20px;" id="projects">Network Security Groups (NSGs) and Inspecting Network Protocols  
+<h3 style=" padding-bottom:6px; background-color: #2f5267; font-size: 20px;" id="projects">Network Security Groups (NSGs) and Inspecting Network Protocols  
 <img style="margin-bottom: -5px;" src="images/AD.png" alt="" width="25" height="25"></h3>
 <ul>
 <li> lorem</li>
