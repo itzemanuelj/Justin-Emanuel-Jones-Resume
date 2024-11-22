@@ -273,7 +273,7 @@
     <p>
         <a href="https://github.com/itzemanuelj/Creating-a-Windows-Bootable-Drive?tab=readme-ov-file" target="_blank">Creating a Windows Bootable Drive</a>
     </p>
-    <div style="width: 100%; height: 30px;"></div>
+    <!-- <div style="width: 100%; height: 30px;"></div> -->
 
     <!-- second images-->
     <div class="modal-container">
@@ -333,7 +333,98 @@
     <p>
         <a href="https://github.com/itzemanuelj/Creating-a-Virtual-Machine-Using-Azure" target="_blank">Creating a Vitural Machine Using Azure </a>
 </div>
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+    </div>
+    
+    <script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+    
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+    </script>
+       <!-- end of modal -->
 
+    <ul>
+    </ul>
+    <div class="modal-container">
+    <div class="image-item" onclick="openModal('modal1', 'Header for Image 1', 'svg/screenshot.svg')">
+        <img src="images/Windows 11 Installation Media.png" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Header for Image 2', 'svg/screenshot.svg')">
+        <img src="images/Windows 11 Installation Media.png" alt="Image 2">
+    </div>
+    </div>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+    </div>
+    
+    <!--  -->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+    </div>
+    <p>
+        <a href="https://github.com/itzemanuelj/osTicket-Ticket-Lifecycle-Examples" target="_blank">osTicket: Ticket Lifecycle Examples</a>
+    </p>
+    
+    <!-- <div style="width: 100%; height: 15px;"></div> -->
+    
+    <script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+    
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+    </script>
+    <!-- end of modal -->
 <div style="width: 100%; height: 2px;"></div>
 
 <div class="section">
