@@ -179,7 +179,7 @@ margin-right: auto;
  <div class="image-item" onclick="openModal('modal1', 'Active Directory Management Console', 'images/AD3.2.png')">
      <img src="images/AD3.2.png" alt="Image 1">
  </div>
- <div class="image-item" onclick="openModal('modal2', 'Deploying 1000 Users In Active Directory', 'images/AD500.PNG')">
+ <div class="image-item" onclick="openModal('modal2', 'Deploying 1000 Users In Active Directory', 'images/AD500.png')">
      <img src="images/AD500.png" alt="Image 2">
  </div>
  </div>
@@ -235,6 +235,71 @@ margin-right: auto;
  </p>
 
  <!-- end of modal -->
+    <!-- end of modal -->
+ <h3 style=" padding-bottom:6px; background-color: #2f5267; font-size: 20px;" id="projects">Network File Shares and Permissions with Active Directory  
+    <img style="margin-bottom: -5px;" src="images/AD.png" alt="" width="25" height="25"></h3>
+    <p>Configuring file share permissions for users and groups to allow or deny access based on roles.</p>
+   
+    </p>
+    <div class="modal-container">
+    <div class="image-item" onclick="openModal('modal1', 'Granting RWX Access to the Accountants OU', 'images/NFS6.0.PNG')">
+        <img src="images/NFS6.0.PNG" alt="Image 1">
+    </div>
+    <div class="image-item" onclick="openModal('modal2', 'Creating Users That Has RWX Access To Accounting Files', 'images/NFS7.1.PNG')">
+        <img src="images/NFS7.1.PNG" alt="Image 2">
+    </div>
+    </div>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+    </div>
+    
+    <!--  -->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h4 id="modal1-header"></h4>
+        <img id="modal1-image" src="" alt="Modal Image 1">
+    </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h4 id="modal2-header"></h4>
+        <img id="modal2-image" src="" alt="Modal Image 2">
+    </div>
+    </div>
+    
+    <script>
+    function openModal(modalId, headerText, imageUrl) {
+        document.getElementById(modalId + '-header').innerText = headerText;
+        document.getElementById(modalId + '-image').src = imageUrl;
+        document.getElementById(modalId).style.display = "block";
+    }
+    
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+    </script>
+    <p>
+        <a href="https://github.com/itzemanuelj/-Network-File-Shares-and-Permissions-with-Active-Directory" target="_blank">Network File Shares and Permissions with Active Directory</a>
+    </p>
+    <!-- end of modal -->
   <!-- end of modal -->
  <h3 style=" padding-bottom:6px; background-color: #2f5267; font-size: 20px;" id="projects">Network Security Groups (NSGs) and Inspecting Network Protocols  
  <img style="margin-bottom: -5px;" src="images/AD.png" alt="" width="25" height="25"></h3>
